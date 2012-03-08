@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[<ul>
+	<li>
+		<label for="name">Name</label>
+		<div class="input">
+			<input type="text" id="name" placeholder="Zander Martineau" />
+		</div>
+
+	</li>
+	<li>
+		<label for="email">Email</label>
+		<div class="input"><input type="email" id="email" placeholder="zander@martineau.tv" /></div>
+	</li>
+	<li>
+		<label for="phone">Phone</label>
+		<div class="input"><input type="number" id="phone" placeholder="020 123 4567" /></div>
+	</li>
+	<li>
+		<label for="comments">Comments</label>
+		<div class="input">
+			<textarea id="comments" rows="3" cols="50"></textarea>
+		</div>
+	</li>
+</ul>]]></content>
+	<tabTrigger>bformitems</tabTrigger>
+</snippet>

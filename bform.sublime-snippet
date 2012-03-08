@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[<form action="#"${1: class="form_stacked"}>
+	$0
+</form>]]></content>
+	<tabTrigger>bform</tabTrigger>
+</snippet>

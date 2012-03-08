@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[<div class="row">
+	<div class="grid_${1:6} column">
+		$3
+	</div>
+	<div class="grid_${2:6} column">
+		$4
+	</div>
+</div>$0]]></content>
+	<tabTrigger>b2col</tabTrigger>
+</snippet>
