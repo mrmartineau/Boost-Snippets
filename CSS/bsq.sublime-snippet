@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[.square(${1:50}px)$0]]></content>
+	<tabTrigger>bsq</tabTrigger>
+	<description>.square() Mixin</description>
+</snippet>

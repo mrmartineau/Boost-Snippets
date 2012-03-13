@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[.size(${1:10}px,${2:10}px)$0]]></content>
+	<tabTrigger>bs</tabTrigger>
+	<description>.size() Mixin</description>
+</snippet>

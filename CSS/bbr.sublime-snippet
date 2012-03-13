@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[.border-radius(${1:5px})$0]]></content>
+	<tabTrigger>bbr</tabTrigger>
+	<description>.border-radius() Mixin</description>
+</snippet>
