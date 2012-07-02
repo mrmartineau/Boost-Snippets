@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[<li>
-	<label for="${1:name}">${2:Label}</label>
-	<div class="input">
-		<input type="${3:text}" id="$1"${4: placeholder="Zander Martineau"} />
-	</div>
-</li>$0]]></content>
-	<tabTrigger>bformitem</tabTrigger>
-</snippet>

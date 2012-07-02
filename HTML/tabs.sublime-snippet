@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[<ul class="group tabs">
+	<content><![CDATA[<ul class="tabs group">
 	<li>
 		<a href="#tab_1" class="active">${1:Tab 1}</a>
 	</li>
@@ -7,7 +7,7 @@
 		<a href="#tab_2">${2:Tab 2}</a>
 	</li>
 </ul>
-<ul class="tabs_content ui_list${3: contained}">
+<ul class="tabs-content ui_list${3: contained}">
 	<li id="tab_1" class="active">
 		<h3>$1 content</h3>
 		<p>Pellentesque</p>
@@ -16,5 +16,5 @@
 		<h3>$2 content</h3>
 		<p>Lorem ipsum</li>
 </ul>]]></content>
-	<tabTrigger>btabs</tabTrigger>
+	<tabTrigger>ko:tabs</tabTrigger>
 </snippet>

@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[.line-height(${1:16});$0]]></content>
+	<tabTrigger>ko:lh</tabTrigger>
+	<description>.line-height() REM mixin</description>
+</snippet>

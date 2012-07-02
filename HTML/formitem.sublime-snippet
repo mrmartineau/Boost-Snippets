@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[<li class="control-item">
+	<label for="${1:name}" class="control-label">${2:Label}</label>
+	<div class="control-input">
+		<input type="${3:text}" id="$1"${4: placeholder="Placeholder text"} />
+	</div>
+</li>$0]]></content>
+	<tabTrigger>ko:formitem</tabTrigger>
+</snippet>

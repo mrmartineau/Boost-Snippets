@@ -1,5 +1,5 @@
 <snippet>
 	<content><![CDATA[.opacity(${1:60})$0]]></content>
-	<tabTrigger>bo</tabTrigger>
+	<tabTrigger>ko:o</tabTrigger>
 	<description>.opacity() Mixin</description>
 </snippet>
