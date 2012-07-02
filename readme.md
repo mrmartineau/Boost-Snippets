@@ -1,9 +1,9 @@
-# Boost Snippets for Sublime Text 2
+# Kickoff Snippets for Sublime Text 2
 
 Use these snippets if you use my Boost framework & Sublime Text
 
-* Example page http://mrmartineau.github.com/Boost/example.html
-* Grids: http://mrmartineau.github.com/Boost/grid.html
+* Example page https://github.com/tmwagency/kickoff/blob/master/index.html
+* Grids: http://mrmartineau.github.com/Choreographic-Grid/test.html
 
 ## Forms
 Tab triggers are listed by the titles
@@ -21,18 +21,7 @@ Remove the 'form_stacked' class to have form labels to the left of the inputs
 </form>
 ```
 
-### form li - ko:formitem&#8677;
-
-```html
-<li class="control-item">
-	<label for="name" class="control-label">Name</label>
-	<div class="control-input">
-		<input type="text" id="name" placeholder="Zander Martineau" />
-	</div>
-</li>
-```
-
-### form ul - ko:formitems&#8677;
+### form items - ko:formitems&#8677;
 
 ```html
 <ul class="control-group">
@@ -61,6 +50,17 @@ Remove the 'form_stacked' class to have form labels to the left of the inputs
 		</div>
 	</li>
 </ul>
+```
+
+### form item - ko:formitem&#8677;
+
+```html
+<li class="control-item">
+	<label for="name" class="control-label">Name</label>
+	<div class="control-input">
+		<input type="text" id="name" placeholder="Zander Martineau" />
+	</div>
+</li>
 ```
 
 ### form note - ko:formnote&#8677;
