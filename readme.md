@@ -12,7 +12,7 @@ Tab triggers are listed by the titles
 
 Remove the 'form_stacked' class to have form labels to the left of the inputs
 
-```
+```html
 <form action="#" class="form-horizontal">
 	<fieldset>
 		<legend>Your form</legend>
@@ -23,7 +23,7 @@ Remove the 'form_stacked' class to have form labels to the left of the inputs
 
 ### form li - ko:formitem&#8677;
 
-```
+```html
 <li class="control-item">
 	<label for="name" class="control-label">Name</label>
 	<div class="control-input">
@@ -34,7 +34,7 @@ Remove the 'form_stacked' class to have form labels to the left of the inputs
 
 ### form ul - ko:formitems&#8677;
 
-```
+```html
 <ul class="control-group">
 	<li class="control-item">
 		<label for="name" class="control-label">Name</label>
@@ -65,7 +65,7 @@ Remove the 'form_stacked' class to have form labels to the left of the inputs
 
 ### form note - ko:formnote&#8677;
 
-```
+```html
 <span class="form-note">?<span>First name &amp; last name</span></span>
 ```
 
@@ -73,7 +73,7 @@ Remove the 'form_stacked' class to have form labels to the left of the inputs
 
 ### Row - brow&#8677;
 
-```
+```html
 <div class="row">
 
 </div>
@@ -81,7 +81,7 @@ Remove the 'form_stacked' class to have form labels to the left of the inputs
 
 ### 2 columns - ko:2col&#8677;
 
-```
+```html
 <div class="row">
 	<div class="span-6 col">
 
@@ -94,7 +94,7 @@ Remove the 'form_stacked' class to have form labels to the left of the inputs
 
 ### One column - ko:col&#8677;
 
-```
+```html
 <div class="span-6 col">
 
 </div>
