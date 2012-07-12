@@ -7,14 +7,15 @@
 		<a href="#tab_2">${2:Tab 2}</a>
 	</li>
 </ul>
-<ul class="tabs-content ui_list${3: contained}">
+<ul class="tabs-content${3: contained}">
 	<li id="tab_1" class="active">
 		<h3>$1 content</h3>
 		<p>Pellentesque</p>
 	</li>
 	<li id="tab_2">
 		<h3>$2 content</h3>
-		<p>Lorem ipsum</li>
+		<p>Lorem ipsum</p>
+	</li>
 </ul>]]></content>
 	<tabTrigger>ko:</tabTrigger>
 	<description>Simple tabs</description>
