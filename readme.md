@@ -4,7 +4,7 @@ Use these snippets if you use my Boost framework & Sublime Text
 
 * Example page https://github.com/tmwagency/kickoff/blob/master/index.html
 * Grids: http://mrmartineau.github.com/Choreographic-Grid/test.html
-
+ko:
 ## Tab trigger for all items: 'ko:' &#8677;
 
 ## Forms
