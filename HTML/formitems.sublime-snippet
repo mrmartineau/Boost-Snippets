@@ -25,5 +25,6 @@
 		</div>
 	</li>
 </ul>]]></content>
-	<tabTrigger>ko:formitems</tabTrigger>
+	<tabTrigger>ko:</tabTrigger>
+	<scope>text.html</scope>
 </snippet>

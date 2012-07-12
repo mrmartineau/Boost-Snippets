@@ -2,5 +2,6 @@
 	<content><![CDATA[<div class="row">
 	$0
 </div>]]></content>
-	<tabTrigger>ko:row</tabTrigger>
+	<tabTrigger>ko:</tabTrigger>
+	<scope>text.html</scope>
 </snippet>

@@ -1,4 +1,5 @@
 <snippet>
 	<content><![CDATA[<span class="form-note">?<span>First name &amp; last name</span></span>]]></content>
-	<tabTrigger>ko:formnote</tabTrigger>
+	<tabTrigger>ko:</tabTrigger>
+	<scope>text.html</scope>
 </snippet>

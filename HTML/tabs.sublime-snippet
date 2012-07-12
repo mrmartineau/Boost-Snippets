@@ -16,5 +16,6 @@
 		<h3>$2 content</h3>
 		<p>Lorem ipsum</li>
 </ul>]]></content>
-	<tabTrigger>ko:tabs</tabTrigger>
+	<tabTrigger>ko:</tabTrigger>
+	<scope>text.html</scope>
 </snippet>

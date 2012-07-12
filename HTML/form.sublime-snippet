@@ -6,5 +6,6 @@
 	</fieldset>}
 	$0
 </form>]]></content>
-	<tabTrigger>ko:form</tabTrigger>
+	<tabTrigger>ko:</tabTrigger>
+	<scope>text.html</scope>
 </snippet>

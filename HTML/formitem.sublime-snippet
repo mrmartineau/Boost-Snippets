@@ -5,5 +5,6 @@
 		<input type="${3:text}" id="$1"${4: placeholder="Placeholder text"} />
 	</div>
 </li>$0]]></content>
-	<tabTrigger>ko:formitem</tabTrigger>
+	<tabTrigger>ko:</tabTrigger>
+	<scope>text.html</scope>
 </snippet>
