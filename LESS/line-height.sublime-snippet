@@ -2,5 +2,5 @@
 	<content><![CDATA[.line-height(${1:16});$0]]></content>
 	<tabTrigger>ko:</tabTrigger>
 	<description>.line-height() REM mixin</description>
-	<scope>source.css.less,source.css</scope>
+	<scope>source.css.less</scope>
 </snippet>

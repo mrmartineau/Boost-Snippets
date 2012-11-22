@@ -2,5 +2,5 @@
 	<content><![CDATA[#gradient .vertical(${1:#555} ${2:#333});$0]]></content>
 	<tabTrigger>ko:</tabTrigger>
 	<description>#gradient .vertical Mixin</description>
-	<scope>source.css.less,source.css</scope>
+	<scope>source.css.less</scope>
 </snippet>

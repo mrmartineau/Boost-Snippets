@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+// === $1> ===
+@include respond-min(${1:768px}) {
+	$0
+}
+// === end $1> ===]]></content>
+	<tabTrigger>ko:</tabTrigger>
+	<description>Respond Min (Media Query) code block</description>
+	<scope>source.scss</scope>
+</snippet>

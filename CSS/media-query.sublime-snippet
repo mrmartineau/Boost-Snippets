@@ -7,5 +7,5 @@
 /* === end $1> === */]]></content>
 	<tabTrigger>ko:</tabTrigger>
 	<description>Media Query (CSS) code block</description>
-	<scope>source.css.less,source.css</scope>
+	<scope>source.css</scope>
 </snippet>

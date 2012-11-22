@@ -2,5 +2,5 @@
 	<content><![CDATA[.font-size(${1:16});$0]]></content>
 	<tabTrigger>ko:</tabTrigger>
 	<description>.font-size() REM mixin</description>
-	<scope>source.css.less,source.css</scope>
+	<scope>source.css.less</scope>
 </snippet>

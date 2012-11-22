@@ -2,5 +2,5 @@
 	<content><![CDATA[.box-shadow(${1:0 1px 3px rgba(0,0,0,.25)});$0]]></content>
 	<tabTrigger>ko:</tabTrigger>
 	<description>.box-shadow() Mixin</description>
-	<scope>source.css.less,source.css</scope>
+	<scope>source.css.less</scope>
 </snippet>

@@ -2,5 +2,5 @@
 	<content><![CDATA[.box-sizing(${1:border-box});$0]]></content>
 	<tabTrigger>ko:</tabTrigger>
 	<description>.box-sizing() Mixin</description>
-	<scope>source.css.less,source.css</scope>
+	<scope>source.css.less</scope>
 </snippet>

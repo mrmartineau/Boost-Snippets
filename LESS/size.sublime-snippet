@@ -2,5 +2,5 @@
 	<content><![CDATA[.size(${1:10}px,${2:10}px);$0]]></content>
 	<tabTrigger>ko:</tabTrigger>
 	<description>.size() Mixin</description>
-	<scope>source.css.less,source.css</scope>
+	<scope>source.css.less</scope>
 </snippet>

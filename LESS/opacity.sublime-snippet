@@ -2,5 +2,5 @@
 	<content><![CDATA[.opacity(${1:60});$0]]></content>
 	<tabTrigger>ko:</tabTrigger>
 	<description>.opacity() Mixin</description>
-	<scope>source.css.less,source.css</scope>
+	<scope>source.css.less</scope>
 </snippet>
