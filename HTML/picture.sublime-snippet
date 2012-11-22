@@ -5,7 +5,7 @@
 	<source srcset="${3:small}-1.jpg 1x, ${3:small}-2.jpg 2x">
 	<img src="${3:small}-1.jpg">
 </picture>$0]]></content>
-	<tabTrigger>ko:</tabTrigger>
+	<tabTrigger>ko</tabTrigger>
 	<description>Picture element</description>
 	<scope>text.html</scope>
 </snippet>

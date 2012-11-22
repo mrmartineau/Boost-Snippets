@@ -17,7 +17,7 @@
 		<p>Lorem ipsum</p>
 	</li>
 </ul>]]></content>
-	<tabTrigger>ko:</tabTrigger>
+	<tabTrigger>ko</tabTrigger>
 	<description>Simple tabs</description>
 	<scope>text.html</scope>
 </snippet>

@@ -25,7 +25,7 @@
 		</div>
 	</li>
 </ul>]]></content>
-	<tabTrigger>ko:</tabTrigger>
+	<tabTrigger>ko</tabTrigger>
 	<description>Group of items in &lt;form&gt;</description>
 	<scope>text.html</scope>
 </snippet>

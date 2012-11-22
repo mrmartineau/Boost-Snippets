@@ -4,12 +4,12 @@ Use these snippets if you use my Boost framework & Sublime Text
 
 * Example page https://github.com/tmwagency/kickoff/blob/master/index.html
 * Grids: http://mrmartineau.github.com/Choreographic-Grid/test.html
-ko:
-## Tab trigger for all items: 'ko:' &#8677;
+ko
+## Tab trigger for all items: 'ko' &#8677;
 
 ## Forms
 
-### form - ko:&#8677;
+### form - ko&#8677;
 
 Remove the 'form_stacked' class to have form labels to the left of the inputs
 
@@ -22,7 +22,7 @@ Remove the 'form_stacked' class to have form labels to the left of the inputs
 </form>
 ```
 
-### form items - ko:&#8677;
+### form items - ko&#8677;
 
 ```html
 <ul class="control-group">
@@ -53,7 +53,7 @@ Remove the 'form_stacked' class to have form labels to the left of the inputs
 </ul>
 ```
 
-### form item - ko:&#8677;
+### form item - ko&#8677;
 
 ```html
 <li class="control-item">
@@ -64,7 +64,7 @@ Remove the 'form_stacked' class to have form labels to the left of the inputs
 </li>
 ```
 
-### form note - ko:&#8677;
+### form note - ko&#8677;
 
 ```html
 <span class="form-note">?<span>First name &amp; last name</span></span>
@@ -72,7 +72,7 @@ Remove the 'form_stacked' class to have form labels to the left of the inputs
 
 ## Grid
 
-### Row - ko:&#8677;
+### Row - ko&#8677;
 
 ```html
 <div class="row">
@@ -80,7 +80,7 @@ Remove the 'form_stacked' class to have form labels to the left of the inputs
 </div>
 ```
 
-### 2 columns - ko:&#8677;
+### 2 columns - ko&#8677;
 
 ```html
 <div class="row">
@@ -93,7 +93,7 @@ Remove the 'form_stacked' class to have form labels to the left of the inputs
 </div>
 ```
 
-### One column - ko:&#8677;
+### One column - ko&#8677;
 
 ```html
 <div class="span-6 col">
@@ -104,43 +104,43 @@ Remove the 'form_stacked' class to have form labels to the left of the inputs
 ## LESS mixins
 These reference https://github.com/mrmartineau/Boost/blob/master/less/mixins.less
 
-### border-radius - ko:&#8677;
+### border-radius - ko&#8677;
 
 ```
 .border-radius(5px);
 ```
 
-### box-shadow - ko:&#8677;
+### box-shadow - ko&#8677;
 
 ```
 .box-shadow(0 1px 3px rgba(0,0,0,.25));
 ```
 
-### opacity - ko:&#8677;
+### opacity - ko&#8677;
 
 ```
 .opacity(60);
 ```
 
-### size (sizing an element - w x h) - ko:&#8677;
+### size (sizing an element - w x h) - ko&#8677;
 
 ```
 .size(10px,10px);
 ```
 
-### square (for elements with same height & width) - ko:&#8677;
+### square (for elements with same height & width) - ko&#8677;
 
 ```
 .square(50px);
 ```
 
-### font-size REM mixin - ko:&#8677;
+### font-size REM mixin - ko&#8677;
 
 ```
 .font-size(16);
 ```
 
-### line-height REM mixin - ko:&#8677;
+### line-height REM mixin - ko&#8677;
 
 ```
 .line-height(50px);
