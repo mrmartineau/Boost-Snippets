@@ -4,7 +4,8 @@
 @include respond-min-max(${1:768px}, ${2:1024px}) {
 	$0
 }
-// === end $1> - <$2 ===]]></content>
+// === end $1> - <$2 ===]]>
+</content>
 	<tabTrigger>ko</tabTrigger>
 	<description>Respond Max (Media Query) code block</description>
 	<scope>source.scss</scope>
