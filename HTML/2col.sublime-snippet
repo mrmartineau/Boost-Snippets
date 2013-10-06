@@ -1,9 +1,9 @@
 <snippet>
-	<content><![CDATA[<div class="row">
-	<div class="span${1:6} col">
+	<content><![CDATA[<div class="g-row">
+	<div class="g-span${1:6} g-col">
 		$3
 	</div>
-	<div class="span${2:6} col">
+	<div class="g-span${2:6} g-col">
 		$4
 	</div>
 </div>$0]]></content>

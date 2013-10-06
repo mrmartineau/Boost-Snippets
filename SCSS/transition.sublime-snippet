@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[@include transition(${1:all 0.2s ease-in-out});$0]]></content>
+	<content><![CDATA[@include transition(${1:all 200ms ease-in-out});$0]]></content>
 	<tabTrigger>ko</tabTrigger>
 	<description>transition() Mixin</description>
 	<scope>source.scss</scope>

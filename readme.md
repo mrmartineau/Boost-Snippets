@@ -1,10 +1,9 @@
 # Kickoff Snippets for Sublime Text 2
 
-Use these snippets if you use my Boost framework & Sublime Text
+Use these snippets if you use the [Kickoff framework](https://github.com/tmwagency/kickoff/) & [Sublime Text](http://sublimetext.com)
 
-* Example page https://github.com/tmwagency/kickoff/blob/master/index.html
-* Grids: http://mrmartineau.github.com/Choreographic-Grid/test.html
-ko
+* [Kickoff demos](http://tmwagency.github.io/kickoff/demos/)
+
 ## Tab trigger for all items: 'ko' &#8677;
 
 ## Forms

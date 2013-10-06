@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[<div class="span${1:12} col">
+	<content><![CDATA[<div class="g-span${1:12} g-col">
 	$2
 </div>$0]]></content>
 	<tabTrigger>ko</tabTrigger>

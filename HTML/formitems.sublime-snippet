@@ -1,27 +1,29 @@
 <snippet>
-	<content><![CDATA[<ul class="control-group">
-	<li class="control-item">
-		<label for="name" class="control-label">Name</label>
-		<div class="control-input">
+	<content><![CDATA[<ul>
+	<li class="form-controlGroup">
+		<label for="name" class="form-controlGroup-label">Name</label>
+		<div class="form-controlGroup-input">
 			<input type="text" id="name" placeholder="Zander Martineau" />
 		</div>
 	</li>
-	<li class="control-item">
-		<label for="email" class="control-label">Email</label>
-		<div class="control-input">
-			<input type="email" id="email" placeholder="zmartineau@tmw.co.uk" />
+	<li class="form-controlGroup">
+		<label for="email" class="form-controlGroup-label">Email</label>
+		<div class="form-controlGroup-input">
+			<input type="email" id="email" placeholder="steve@apple.com" />
 		</div>
 	</li>
-	<li class="control-item">
-		<label for="phone" class="control-label">Phone</label>
-		<div class="control-input">
+	<li class="form-controlGroup">
+		<label for="phone" class="form-controlGroup-label">Phone</label>
+		<div class="form-controlGroup-input">
 			<input type="number" id="phone" placeholder="020 123 4567" />
 		</div>
 	</li>
-	<li class="control-item">
-		<label for="comments" class="control-label">Comments</label>
-		<div class="control-input">
-			<textarea id="comments" rows="3" cols="50" class="input-xlarge"></textarea>
+	<li class="form-controlGroup">
+		<label for="comments" class="form-controlGroup-label">Comments <br>
+			<small>This is a description</small>
+		</label>
+		<div class="form-controlGroup-input">
+			<textarea id="comments" rows="3" cols="50"></textarea>
 		</div>
 	</li>
 </ul>]]></content>

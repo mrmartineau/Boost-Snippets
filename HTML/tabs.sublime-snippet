@@ -1,14 +1,14 @@
 <snippet>
-	<content><![CDATA[<ul class="tabs group">
+	<content><![CDATA[<ul class="tabs clearfix">
 	<li>
-		<a href="#tab_1" class="active">${1:Tab 1}</a>
+		<a href="#tab_1" class="is-active">${1:Tab 1}</a>
 	</li>
 	<li>
 		<a href="#tab_2">${2:Tab 2}</a>
 	</li>
 </ul>
-<ul class="tabs-content${3: contained}">
-	<li id="tab_1" class="active">
+<ul class="l-tabsContent">
+	<li id="tab_1" class="is-active">
 		<h3>$1 content</h3>
 		<p>Pellentesque</p>
 	</li>

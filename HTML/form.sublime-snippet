@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[<form action="#"${1: class="form-horizontal"}>
+	<content><![CDATA[<form action="#"${1: class="form--horizontal"}>
 	${2:<fieldset>
 		<legend>Your form</legend>}
 		$3
