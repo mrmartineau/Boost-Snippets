@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[@include gradient-vertical(${1:#555} ${2:#333});$0]]></content>
-	<tabTrigger>ko</tabTrigger>
-	<description>Gradient vertical Mixin</description>
-	<scope>source.scss</scope>
-</snippet>

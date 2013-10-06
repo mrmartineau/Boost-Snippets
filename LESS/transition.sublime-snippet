@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[.transition(${1:all 0.2s ease-in-out});$0]]></content>
-	<tabTrigger>ko</tabTrigger>
-	<description>.transition() Mixin</description>
-	<scope>source.css.less</scope>
-</snippet>
