@@ -4,16 +4,15 @@ Use these snippets if you use the [Kickoff framework](https://github.com/tmwagen
 
 * [Kickoff demos](http://tmwagency.github.io/kickoff/demos/)
 
-## Tab trigger for all items: 'ko' &#8677;
+##### Tab trigger for all items: 'ko' &#8677;
 
-## Forms
+## HTML
+[Reference](https://github.com/tmwagency/Kickoff-snippets/tree/master/HTML)
 
-### form - ko&#8677;
-
-Remove the 'form_stacked' class to have form labels to the left of the inputs
-
+#### form - [ko&#8677;]
+Add the `.form--horizontal` class to have form labels to the left of the inputs:
 ```html
-<form action="#" class="form-horizontal">
+<form action="#" class="form--horizontal">
 	<fieldset>
 		<legend>Your form</legend>
 
@@ -21,126 +20,191 @@ Remove the 'form_stacked' class to have form labels to the left of the inputs
 </form>
 ```
 
-### form items - ko&#8677;
-
+#### form items - [ko&#8677;]
 ```html
-<ul class="control-group">
-	<li class="control-item">
-		<label for="name" class="control-label">Name</label>
-		<div class="control-input">
+<ul>
+	<li class="form-controlGroup">
+		<label for="name" class="form-controlGroup-label">Name</label>
+		<div class="form-controlGroup-input">
 			<input type="text" id="name" placeholder="Zander Martineau" />
 		</div>
 	</li>
-	<li class="control-item">
-		<label for="email" class="control-label">Email</label>
-		<div class="control-input">
-			<input type="email" id="email" placeholder="zmartineau@tmw.co.uk" />
+	<li class="form-controlGroup">
+		<label for="email" class="form-controlGroup-label">Email</label>
+		<div class="form-controlGroup-input">
+			<input type="email" id="email" placeholder="steve@apple.com" />
 		</div>
 	</li>
-	<li class="control-item">
-		<label for="phone" class="control-label">Phone</label>
-		<div class="control-input">
+	<li class="form-controlGroup">
+		<label for="phone" class="form-controlGroup-label">Phone</label>
+		<div class="form-controlGroup-input">
 			<input type="number" id="phone" placeholder="020 123 4567" />
 		</div>
 	</li>
-	<li class="control-item">
-		<label for="comments" class="control-label">Comments</label>
-		<div class="control-input">
-			<textarea id="comments" rows="3" cols="50" class="input-xlarge"></textarea>
+	<li class="form-controlGroup">
+		<label for="comments" class="form-controlGroup-label">Comments <br>
+			<small>This is a description</small>
+		</label>
+		<div class="form-controlGroup-input">
+			<textarea id="comments" rows="3" cols="50"></textarea>
 		</div>
 	</li>
 </ul>
 ```
 
-### form item - ko&#8677;
-
+#### form item - [ko&#8677;]
 ```html
-<li class="control-item">
-	<label for="name" class="control-label">Name</label>
-	<div class="control-input">
-		<input type="text" id="name" placeholder="Zander Martineau" />
+<li class="form-controlGroup">
+	<label for="name" class="form-controlGroup-label">Label</label>
+	<div class="form-controlGroup-input">
+		<input type="text" id="name" placeholder="Placeholder text" />
 	</div>
 </li>
 ```
 
-### form note - ko&#8677;
-
+#### form note - [ko&#8677;]
 ```html
 <span class="form-note">?<span>First name &amp; last name</span></span>
 ```
 
-## Grid
-
-### Row - ko&#8677;
-
+#### Grid - Row - [ko&#8677;]
 ```html
-<div class="row">
+<div class="g-row">
 
 </div>
 ```
 
-### 2 columns - ko&#8677;
-
+#### Grid - 2 columns - [ko&#8677;]
 ```html
-<div class="row">
-	<div class="span-6 col">
+<div class="g-row">
+	<div class="g-span-6 g-col">
 
 	</div>
-	<div class="span-6 col">
+	<div class="g-span-6 g-col">
 
 	</div>
 </div>
 ```
 
-### One column - ko&#8677;
-
+#### Grid - One column - [ko&#8677;]
 ```html
-<div class="span-6 col">
+<div class="g-span-6 g-col">
 
 </div>
 ```
 
-## LESS mixins
-These reference https://github.com/mrmartineau/Boost/blob/master/less/mixins.less
+## CSS
+[Reference](https://github.com/tmwagency/Kickoff-snippets/tree/master/CSS)
 
-### border-radius - ko&#8677;
-
-```
-.border-radius(5px);
-```
-
-### box-shadow - ko&#8677;
-
-```
-.box-shadow(0 1px 3px rgba(0,0,0,.25));
+#### background - [ko&#8677;]
+```css
+background: #f2f2f2 url("/img/ui/") left top no-repeat;
 ```
 
-### opacity - ko&#8677;
+#### media-query - [ko&#8677;]
+```css
+/* === 760> === */
+@media screen and (min-width: 760) {
 
-```
-.opacity(60);
-```
-
-### size (sizing an element - w x h) - ko&#8677;
-
-```
-.size(10px,10px);
+}
+/* === end 760> === */
 ```
 
-### square (for elements with same height & width) - ko&#8677;
+## Sass
+[Reference](https://github.com/tmwagency/Kickoff-snippets/tree/master/SCSS)
 
+#### background-size - [ko&#8677;]
 ```
-.square(50px);
-```
-
-### font-size REM mixin - ko&#8677;
-
-```
-.font-size(16);
+@include background-size(cover);
 ```
 
-### line-height REM mixin - ko&#8677;
-
+#### border-radius - [ko&#8677;]
 ```
-.line-height(50px);
+@include border-radius(5px);
+```
+
+#### box-shadow - [ko&#8677;]
+```
+@include box-shadow(0 1px 3px rgba(0,0,0,.25));
+```
+
+#### box-sizing - [ko&#8677;]
+```
+@include box-sizing(border-box);
+```
+
+#### font-size REM mixin - [ko&#8677;]
+```
+@include font-size(16);
+```
+
+#### line-height REM mixin - [ko&#8677;]
+```
+@include line-height(50);
+```
+
+#### linear-gradient - [ko&#8677;]
+[Reference](https://github.com/tmwagency/kickoff/blob/master/scss/mixins/_linear-gradient.scss)
+```
+@include linear-gradient(left, #1e5799 0%, #2989d8 50%);
+```
+
+#### opacity - [ko&#8677;]
+```
+@include opacity(60);
+```
+
+#### respond-min - [ko&#8677;]
+```
+// === 760> ===
+@include respond-min(760}) {
+	[...]
+}
+// === end 760> ===
+```
+
+#### respond-max - [ko&#8677;]
+```
+// === 760> ===
+@include respond-max(760}) {
+	[...]
+}
+// === end 760> ===
+```
+
+#### respond-min-max - [ko&#8677;]
+```
+// === 100, 300 ===
+@include respond-min-max(100, 300) {
+	[...]
+}
+// === end 100, 300 ===
+```
+
+#### size (sizing an element - w x h) - [ko&#8677;]
+```
+@include size(10px,10px);
+```
+
+#### square (for elements with same height & width) - [ko&#8677;]
+```
+@include square(50px);
+```
+
+#### transition - [ko&#8677;]
+```
+@include transition(all 200ms ease-in-out);
+```
+
+## Javascript
+[Reference](https://github.com/tmwagency/Kickoff-snippets/tree/master/Javascript)
+
+#### object - [ko&#8677;]
+```js
+TMW.? = {
+	init : function() {
+		var that = this;
+
+	}
+};
 ```
