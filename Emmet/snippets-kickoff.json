@@ -18,7 +18,7 @@
 			"bg"               : "background: ${1:#f2f2f2} url('${2:#{\\$img-path\\}}${3:/ui/}') ${4:left} ${5:top} ${6:no-repeat};$0",
 			"br"               : "@include border-radius(${1:5px});$0",
 			"bs"               : "@include box-shadow(${1:0} ${2:1px} ${3:3px} ${4:rgba(0,0,0,.25)});$0",
-			"bgs"              : "@include background-size(${:cover});$0",
+			"bgs"              : "@include background-size(${1:cover});$0",
 			"box"              : "@include box-sizing(${1:border-box});$0",
 			"fs"               : "@include font-size(${1:16});$0",
 			"lh"               : "@include line-height(${1:16});$0",
