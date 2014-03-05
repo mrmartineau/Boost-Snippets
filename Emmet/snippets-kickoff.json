@@ -31,11 +31,11 @@
 			"bg"               : "background: ${1:#f2f2f2} url('${2:#{\\$img-path\\}}${3:/ui/}') ${4:left} ${5:top} ${6:no-repeat};$0",
 			"fs"               : "@include font-size(${1:16});$0",
 			"lh"               : "@include line-height(${1:16});$0",
-			"lg"               : "@include linear-gradient(${1:top/left}, ${2:#1e5799 0%}, ${3:#2989d8 50%});$0",
-			"rg"               : "@include radial-gradient(${1:#1e5799}, ${2:#3dc3d1}, $fallback: ${3:red});$0",
+			"lg"               : "@include linear-gradient(${1:#1e5799 0%}, ${2:#2989d8 50%}, ${1:horizontal/vertical}, ${4:false/true});$0",
+			"rg"               : "@include radial-gradient(${1:#1e5799}, ${2:#3dc3d1}, $ie: ${3:true/false});$0",
 			"op"               : "@include opacity(${1:60});$0",
 			"pf"               : "@include prefixer(${1:property}, $arg, ${2:webkit moz ms o spec});$0",
-			"rmin"               : "\n// === <$1 ===\n@include respond-max(${1:768px}) {\n\t$0\n}\n// === end <$1 ===\n",
+			"rmin"               : "\n// === $1> ===\n@include respond-max(${1:768px}) {\n\t$0\n}\n// === end $1> ===\n",
 			"rmax"               : "\n// === <$1 ===\n@include respond-min(${1:768px}) {\n\t$0\n}\n// === end <$1 ===\n",
 			"rmm"              : "\n// === <$1 ===\n@include respond-min-max(${1:768px}) {\n\t$0\n}\n// === end <$1 ===\n",
 			"size"             : "@include size(${1:10}px,${2:10}px);$0",
@@ -101,7 +101,7 @@
 			"row"           : "<div class=\"g-row\">\n\t$0\n</div>",
 
 			// Tabs
-			"tabs"           : "<ul class=\"tabs group\">\n\t<li>\n\t\t<a href=\"#tab_1\" class=\"is-active\">${1:Tab 1}</a>\n\t</li>\n\t<li>\n\t\t<a href=\"#tab_2\">${2:Tab 2}</a>\n\t</li>\n</ul>\n<ul class=\"l-tabsContent${3: contained}\">\n\t<li id=\"tab_1\" class=\"is-active\">\n\t\t<h3>$1 content</h3>\n\t\t<p>Pellentesque</p>\n\t</li>\n\t<li id=\"tab_2\">\n\t\t<h3>$2 content</h3>\n\t\t<p>Lorem ipsum</p>\n\t</li>\n</ul>"
+			"tabs"           : "<ul class=\"tabs\">\n\t<li>\n\t\t<a href=\"#tab_1\" class=\"is-active\">${1:Tab 1}</a>\n\t</li>\n\t<li>\n\t\t<a href=\"#tab_2\">${2:Tab 2}</a>\n\t</li>\n</ul>\n<ul class=\"l-tabsContent${3: contained}\">\n\t<li id=\"tab_1\" class=\"is-active\">\n\t\t<h3>$1 content</h3>\n\t\t<p>Pellentesque</p>\n\t</li>\n\t<li id=\"tab_2\">\n\t\t<h3>$2 content</h3>\n\t\t<p>Lorem ipsum</p>\n\t</li>\n</ul>"
 			// ""           : "",
 		}
 	},

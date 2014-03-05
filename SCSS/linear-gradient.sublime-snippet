@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[@include linear-gradient(${1:top/left}, ${2:#1e5799 0%}, ${3:#2989d8 50%});$0]]></content>
+	<content><![CDATA[@include linear-gradient(${1:#1e5799 0%}, ${2:#2989d8 50%}, ${1:horizontal/vertical}, ${4:false/true});$0]]></content>
 	<tabTrigger>ko</tabTrigger>
 	<description>Linear Gradient Mixin</description>
 	<scope>source.scss</scope>
