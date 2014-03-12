@@ -22,7 +22,7 @@
 			"translate3d"      : "transform: translate3d(${1:x} ${2:y} ${2:z});",
 			"transform-origin" : "transform-origin: ${1:center} ${2:center};",
 			"anim"             : "animation: ${1:single-animation-name} ${2:time e.g.200ms} ${3:timing-function e.g.linear} ${4:delay e.g.0s} ${5:single-animation-iteration-count e.g.infinite} ${6:single-animation-fill-mode e.g.forwards}$0;"
-		}
+ 		}
 	},
 
 	"scss": {
@@ -44,6 +44,9 @@
 			"hd"               : "@include hidpi(${1:1.5}){\n\t$2\n};$0",
 			"cols"             : "@include content-columns(${1:1 (column count)},${2:20px (column gap)}30px);",
 			"hyphens"          : "@include hyphens(${1:auto});",
+			"hover"            : "&:hover {\n\t$0\n}",
+			"after"            : "&:after {\n\tcontent:'';\n\t$0\n}",
+			"before"           : "&:before {\n\tcontent:'';\n\t$0\n}",
 
 			// Vars
 			"ko-bfs"      : "\\$base-font-size",
