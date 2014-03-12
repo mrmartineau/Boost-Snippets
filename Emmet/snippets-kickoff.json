@@ -35,9 +35,9 @@
 			"rg"               : "@include radial-gradient(${1:#1e5799}, ${2:#3dc3d1}, $ie: ${3:true/false});$0",
 			"op"               : "@include opacity(${1:60});$0",
 			"pf"               : "@include prefixer(${1:property}, $arg, ${2:webkit moz ms o spec});$0",
-			"rmin"               : "\n// === $1> ===\n@include respond-max(${1:768px}) {\n\t$0\n}\n// === end $1> ===\n",
-			"rmax"               : "\n// === <$1 ===\n@include respond-min(${1:768px}) {\n\t$0\n}\n// === end <$1 ===\n",
-			"rmm"              : "\n// === <$1 ===\n@include respond-min-max(${1:768px}) {\n\t$0\n}\n// === end <$1 ===\n",
+			"rmin"             : "\n// === $1> ===\n@include respond-min(${1:768}) {\n\t$0\n}\n// === end $1> ===\n",
+			"rmax"             : "\n// === <$1 ===\n@include respond-max(${1:768}) {\n\t$0\n}\n// === end <$1 ===\n",
+			"rmm"              : "\n// === $1> <$2 ===\n@include respond-min-max(${1:300}, ${2:800}) {\n\t$0\n}\n// === end <$1 ===\n",
 			"size"             : "@include size(${1:10}px,${2:10}px);$0",
 			"sq"               : "@include square(${1:50}px);$0",
 			"va"               : "@include vertical-align(${1:50px});$0",
@@ -86,7 +86,7 @@
 			"col"           : "<div class=\"g-span${1:12} g-col\">\n\t$2\n</div>$0",
 
 			// Form
-			"f"           : "<form action=\"#\"${1: class=\"form--horizontal\"}>\n\t${2:<fieldset>\n\t\t<legend>Your form</legend>}\n\t\t$3\n\t</fieldset>}\n\t$0\n</form>",
+			"f"           : "<form action=\"#\"${1: class=\"form--horizontal\"}>\n\t${2:<fieldset>\n\t\t<legend>Your form</legend>}\n\t\t$3\n\t</fieldset>\n\t$0\n</form>",
 
 			// Form item
 			"fi"           : "<li class=\"form-controlGroup\">\n\t<label for=\"${1:name}\" class=\"form-controlGroup-label\">${2:Label}</label>\n\t<div class=\"form-controlGroup-input\">\n\t\t<input type=\"${3:text}\" id=\"$1\"${4: placeholder=\"Placeholder text\"} />\n\t</div>\n</li>\n$0\n",
