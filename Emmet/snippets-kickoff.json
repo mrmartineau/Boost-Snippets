@@ -10,7 +10,7 @@
 			"mq"               : "/* === $1> === */\n@media screen and (${2:min}-width: ${1:768px}) {\n\t$0\n}\n/* === end $1> === */",
 			"br"               : "border-radius: ${1:5px};$0",
 			"bs"               : "box-shadow: ${1:0} ${2:1px} ${3:3px} ${4:rgba(0,0,0,.25)};$0",
-			"bgs"              : "background-size: ${:cover};$0",
+			"bgs"              : "background-size: ${1:cover};$0",
 			"box"              : "box-sizing: ${1:border-box};$0",
 			"mq"               : "// === $1> ===\n@media screen and (${2:min}-width: ${1:768px}) {\n\t$0\n}\n// === end $1> ===",
 			"trans"            : "transition: ${1:all 200ms ease-in-out};$0",
