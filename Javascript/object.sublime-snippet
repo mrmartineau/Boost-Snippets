@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[${1:TMW.$2} = {
+	<content><![CDATA[${1:KO.$2} = {
 	init : function() {
 		${3:var that = this;}
 		$4

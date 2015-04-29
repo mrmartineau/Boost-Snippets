@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[<!-- Custom checkboxes -->
+<div class="form-controlGroup">
+	<label class="form-label">Checkboxes</label>
+	<div class="form-controlGroup-inputWrapper">
+		<!-- Wrap checkbox elements with .control.control--custom.control--checkbox <label> -->
+		<label class="control control--custom control--checkbox">
+			<input type="checkbox" value="check4">
+			<span class="control-indicator"></span>
+			This is a custom checkbox
+		</label>
+		<label class="control control--custom control--checkbox">
+			<input type="checkbox" value="check4">
+			<span class="control-indicator"></span>
+			This is a custom checkbox
+		</label>
+	</div>
+</div>
+$0]]></content>
+	<tabTrigger>ko</tabTrigger>
+	<description>Form custom checkboxes</description>
+	<scope>text.html</scope>
+</snippet>

@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[<form action="#"${1: class="form--horizontal"}>
-	${2:<fieldset>
-		<legend>Your form</legend>}
+	${2:<fieldset class="form-fieldset">
+		<legend class="form-legend">Your form</legend>
 		$3
 	</fieldset>}
 	$0

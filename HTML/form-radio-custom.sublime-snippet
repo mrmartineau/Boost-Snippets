@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[<!-- Custom radio buttons -->
+<div class="form-controlGroup g-span6 g-col">
+	<label class="form-label">Radio buttons</label>
+	<div class="form-controlGroup-inputWrapper">
+		<!-- Wrap radio elements with .control.control--custom.control--radio <label> -->
+		<label class="control control--custom control--radio">
+			<input type="radio" name="optionsRadios" id="optionsRadios4" value="option4">
+			<span class="control-indicator"></span>
+			This is a custom radio button
+		</label>
+		<label class="control control--custom control--radio">
+			<input type="radio" name="optionsRadios" id="optionsRadios4" value="option4">
+			<span class="control-indicator"></span>
+			This is a custom radio button
+		</label>
+	</div>
+</div>
+$0]]></content>
+	<tabTrigger>ko</tabTrigger>
+	<description>Form - single item</description>
+	<scope>text.html</scope>
+</snippet>

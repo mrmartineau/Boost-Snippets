@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[<div class="form-controlGroup">
+	<label class="form-label">Inline radio buttons</label>
+	<div class="form-controlGroup-inputWrapper">
+		<label class="control control--inline">
+			<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+			This is a radio
+		</label>
+		<label class="control control--inline">
+			<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+			This is another radio
+		</label>
+	</div>
+</div>
+$0]]></content>
+	<tabTrigger>ko</tabTrigger>
+	<description>Form - radios inline</description>
+	<scope>text.html</scope>
+</snippet>

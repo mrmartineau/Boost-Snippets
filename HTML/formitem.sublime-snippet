@@ -1,12 +1,12 @@
 <snippet>
-	<content><![CDATA[<li class="form-controlGroup">
-	<label for="${1:name}" class="form-controlGroup-label">${2:Label}</label>
-	<div class="form-controlGroup-input">
-		<input type="${3:text}" id="$1"${4: placeholder="Placeholder text"} />
+	<content><![CDATA[<div class="form-controlGroup">
+	<label class="form-label" for="${1:name}">${2:Label}</label>
+	<div class="form-controlGroup-inputWrapper">
+		<input class="form-input" type="${3:text}" id="$1"${4: placeholder="Placeholder text"}/>
 	</div>
-</li>
+</div>
 $0]]></content>
 	<tabTrigger>ko</tabTrigger>
-	<description>Single grouped item in &lt;form&gt;</description>
+	<description>Form - single item</description>
 	<scope>text.html</scope>
 </snippet>
