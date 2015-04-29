@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[<div class="form-actions text_centre">
-		<input type="submit" value="Submit" class="btn btn--primary" />
-		<input type="reset" class="btn" value="Cancel" />
+	<input type="submit" value="Submit" class="btn btn--primary" />
+	<input type="reset" class="btn" value="Cancel" />
 </div>$0]]></content>
 	<tabTrigger>ko</tabTrigger>
 	<description>Form actions</description>

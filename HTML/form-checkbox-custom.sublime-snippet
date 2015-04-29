@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[<!-- Custom checkboxes -->
 <div class="form-controlGroup">
-	<label class="form-label">Checkboxes</label>
+	<label class="form-label">Custom checkboxes</label>
 	<div class="form-controlGroup-inputWrapper">
 		<!-- Wrap checkbox elements with .control.control--custom.control--checkbox <label> -->
 		<label class="control control--custom control--checkbox">

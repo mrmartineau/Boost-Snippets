@@ -1,4 +1,4 @@
-# Kickoff Snippets for Sublime Text 2
+# Kickoff Snippets for Sublime Text
 
 Use these snippets if you use the [Kickoff framework](https://github.com/tmwagency/kickoff/) & [Sublime Text](http://sublimetext.com)
 
@@ -8,7 +8,7 @@ Use these snippets if you use the [Kickoff framework](https://github.com/tmwagen
 
 If you experience problems or editor crashes please [fill an issue](https://github.com/sergeche/emmet-sublime/issues).
 
-With [Package Control](http://wbond.net/sublime_packages/package_control):
+With [Package Control](http://packagecontrol.io):
 
 1. Run “Package Control: Install Package” command, find and install `Kickoff Snippets` plugin.
 2. Restart ST editor (if required)
@@ -26,54 +26,23 @@ Manually:
 #### form - [ko&#8677;]
 Add the `.form--horizontal` class to have form labels to the left of the inputs:
 ```html
-<form action="#" class="form--horizontal">
-	<fieldset>
-		<legend>Your form</legend>
-
-	</fieldset>
+<form action="#"${1: class="form--horizontal"}>
+	${2:<fieldset class="form-fieldset">
+		<legend class="form-legend">Your form</legend>
+		$3
+	</fieldset>}
+	$0
 </form>
-```
-
-#### form items - [ko&#8677;]
-```html
-<ul>
-	<li class="form-controlGroup">
-		<label for="name" class="form-controlGroup-label">Name</label>
-		<div class="form-controlGroup-input">
-			<input type="text" id="name" placeholder="Zander Martineau" />
-		</div>
-	</li>
-	<li class="form-controlGroup">
-		<label for="email" class="form-controlGroup-label">Email</label>
-		<div class="form-controlGroup-input">
-			<input type="email" id="email" placeholder="steve@apple.com" />
-		</div>
-	</li>
-	<li class="form-controlGroup">
-		<label for="phone" class="form-controlGroup-label">Phone</label>
-		<div class="form-controlGroup-input">
-			<input type="number" id="phone" placeholder="020 123 4567" />
-		</div>
-	</li>
-	<li class="form-controlGroup">
-		<label for="comments" class="form-controlGroup-label">Comments <br>
-			<small>This is a description</small>
-		</label>
-		<div class="form-controlGroup-input">
-			<textarea id="comments" rows="3" cols="50"></textarea>
-		</div>
-	</li>
-</ul>
 ```
 
 #### form item - [ko&#8677;]
 ```html
-<li class="form-controlGroup">
-	<label for="name" class="form-controlGroup-label">Label</label>
-	<div class="form-controlGroup-input">
-		<input type="text" id="name" placeholder="Placeholder text" />
+<div class="form-controlGroup">
+	<label class="form-label" for="${1:name}">${2:Label}</label>
+	<div class="form-controlGroup-inputWrapper">
+		<input class="form-input" type="${3:text}" id="$1"${4: placeholder="Placeholder text"}/>
 	</div>
-</li>
+</div>
 ```
 
 #### form note - [ko&#8677;]
@@ -107,45 +76,218 @@ Add the `.form--horizontal` class to have form labels to the left of the inputs:
 </div>
 ```
 
+#### Block grid - [ko&#8677;]
+```html
+<ul class="l-blockGrid l-blockGrid--${1:4up}${2: l-blockGrid--2up--narrow}">
+	<li>Item 1</li>
+	<li>Item 2</li>
+	<li>Item 3</li>
+	<li>Item 4</li>
+</ul>
+```
+
+#### Button - primary - [ko&#8677;]
+```html
+<a href="${1:#}" class="btn btn--primary">${2:Button text}</a>
+```
+
+#### Button - [ko&#8677;]
+```html
+<a href="${1:#}" class="btn btn--primary">${2:Button text}</a>
+```
+
+#### Fluid video - [ko&#8677;]
+```html
+<div class="fluidVideo">
+	${1:<iframe width="560" height="315" src="//www.youtube-nocookie.com/embed/-5Ae-LhMIG0" frameborder="0" allowfullscreen></iframe>}
+</div>
+```
+
+#### Form actions - [ko&#8677;]
+```html
+<div class="form-actions text_centre">
+	<input type="submit" value="Submit" class="btn btn--primary" />
+	<input type="reset" class="btn" value="Cancel" />
+</div>
+```
+
+#### Form - Custom checkboxes - [ko&#8677;]
+```html
+<!-- Custom checkboxes -->
+<div class="form-controlGroup">
+	<label class="form-label">Custom checkboxes</label>
+	<div class="form-controlGroup-inputWrapper">
+		<!-- Wrap checkbox elements with .control.control--custom.control--checkbox <label> -->
+		<label class="control control--custom control--checkbox">
+			<input type="checkbox" value="check4">
+			<span class="control-indicator"></span>
+			This is a custom checkbox
+		</label>
+		<label class="control control--custom control--checkbox">
+			<input type="checkbox" value="check4">
+			<span class="control-indicator"></span>
+			This is a custom checkbox
+		</label>
+	</div>
+</div>
+```
+
+#### Form - Custom radios - [ko&#8677;]
+```html
+<!-- Custom radio buttons -->
+<div class="form-controlGroup g-span6 g-col">
+	<label class="form-label">Radio buttons</label>
+	<div class="form-controlGroup-inputWrapper">
+		<!-- Wrap radio elements with .control.control--custom.control--radio <label> -->
+		<label class="control control--custom control--radio">
+			<input type="radio" name="optionsRadios" id="optionsRadios4" value="option4">
+			<span class="control-indicator"></span>
+			This is a custom radio button
+		</label>
+		<label class="control control--custom control--radio">
+			<input type="radio" name="optionsRadios" id="optionsRadios4" value="option4">
+			<span class="control-indicator"></span>
+			This is a custom radio button
+		</label>
+	</div>
+```
+
+#### Form - inline radios - [ko&#8677;]
+```html
+<div class="form-controlGroup">
+	<label class="form-label">Inline radio buttons</label>
+	<div class="form-controlGroup-inputWrapper">
+		<label class="control control--inline">
+			<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+			This is a radio
+		</label>
+		<label class="control control--inline">
+			<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+			This is another radio
+		</label>
+	</div>
+</div>
+```
+
+#### Form - inline checkboxes - [ko&#8677;]
+```html
+<div class="form-controlGroup">
+	<label class="form-label">Inline Checkboxes</label>
+	<div class="form-controlGroup-inputWrapper">
+		<label class="control control--inline">
+			<input type="checkbox" value="check1">
+			This is a checkbox
+		</label>
+		<label class="control control--inline">
+			<input type="checkbox" value="check2">
+			This is a checkbox
+		</label>
+	</div>
+</div>
+```
+
+#### Form - checkbox - [ko&#8677;]
+```html
+<div class="form-controlGroup g-span6 g-col">
+	<label class="form-label">Checkboxes</label>
+	<div class="form-controlGroup-inputWrapper">
+		<label class="control">
+			<input type="checkbox" value="check1">
+			This is a checkbox
+		</label>
+		<label class="control">
+			<input type="checkbox" value="check2">
+			This is a checkbox
+		</label>
+	</div>
+</div>
+```
+
+#### Media object - [ko&#8677;]
+```html
+<div class="media">
+	<div class="media-img${1: media--rev}">
+		<img src="${2:/path/to/img.jpg}">
+	</div>
+	<div class="media-body">
+		$3
+	</div>
+</div>
+```
+
+#### Table - [ko&#8677;]
+```html
+<table class="table${1: table--bordered}${2: table--striped}${3: table--hover}${4: table--rounded}" cellpadding="0" cellspacing="0">
+	<thead>
+		<th>Table head</th>
+		<th>Table head</th>
+		<th>Table head</th>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Table cell</td>
+			<td>Table cell</td>
+			<td>Table cell</td>
+		</tr>
+	</tbody>
+	<tfoot>
+		<td>Table foot</td>
+		<td>Table foot</td>
+		<td>Table foot</td>
+	</tfoot>
+</table>
+```
+
+#### form note - [ko&#8677;]
+```html
+<span class="form-note">?<span>First name &amp; last name</span></span>
+```
+
 ## CSS
 [Reference](https://github.com/tmwagency/Kickoff-snippets/tree/master/CSS)
 
 #### background - [ko&#8677;]
 ```css
-background: #f2f2f2 url("/img/ui/") left top no-repeat;
+background: ${1:#f2f2f2} url('/img/${2:/ui/}$3') ${4:left} ${5:top} ${6:no-repeat};$0
 ```
 
 #### media-query - [ko&#8677;]
 ```css
-/* === 760> === */
-@media screen and (min-width: 760) {
-
+/* === $1> === */
+@media screen and (${2:min}-width: ${1:768px}) {
+	$0
 }
+/* === end $1> === */
+```
+
+#### background-size - [ko&#8677;]
+```css
+background-size: ${1:cover};$0
 /* === end 760> === */
+```
+
+#### border-radius - [ko&#8677;]
+```css
+border-radius: ${1:5px};$0
+```
+
+#### box-shadow - [ko&#8677;]
+```css
+box-shadow: ${1:0} ${2:1px} ${3:3px} ${4:rgba(0,0,0,.25)};$0
+```
+
+#### box-sizing - [ko&#8677;]
+```css
+box-sizing: ${1:border-box};
+```
+
+#### transition - [ko&#8677;]
+```css
+transition: ${1:all 200ms ease-in-out};
 ```
 
 ## Sass
 [Reference](https://github.com/tmwagency/Kickoff-snippets/tree/master/SCSS)
-
-#### background-size - [ko&#8677;]
-```
-@include background-size(cover);
-```
-
-#### border-radius - [ko&#8677;]
-```
-@include border-radius(5px);
-```
-
-#### box-shadow - [ko&#8677;]
-```
-@include box-shadow(0 1px 3px rgba(0,0,0,.25));
-```
-
-#### box-sizing - [ko&#8677;]
-```
-@include box-sizing(border-box);
-```
 
 #### font-size REM mixin - [ko&#8677;]
 ```
@@ -215,7 +357,7 @@ background: #f2f2f2 url("/img/ui/") left top no-repeat;
 
 #### object - [ko&#8677;]
 ```js
-TMW.? = {
+KO.? = {
 	init : function() {
 		var that = this;
 
