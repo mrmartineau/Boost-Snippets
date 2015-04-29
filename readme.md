@@ -238,11 +238,6 @@ Add the `.form--horizontal` class to have form labels to the left of the inputs:
 </table>
 ```
 
-#### form note - [ko&#8677;]
-```html
-<span class="form-note">?<span>First name &amp; last name</span></span>
-```
-
 ## CSS
 [Reference](https://github.com/tmwagency/Kickoff-snippets/tree/master/CSS)
 
