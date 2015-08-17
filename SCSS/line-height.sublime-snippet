@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[@include line-height(${1:16});$0]]></content>
-	<tabTrigger>ko</tabTrigger>
-	<description>line-height() REM mixin</description>
-	<scope>source.scss</scope>
-</snippet>

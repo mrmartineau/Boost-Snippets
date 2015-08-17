@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[@include opacity(${1:60});$0]]></content>
-	<tabTrigger>ko</tabTrigger>
-	<description>opacity() Mixin</description>
-	<scope>source.scss</scope>
-</snippet>
