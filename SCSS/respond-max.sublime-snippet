@@ -1,16 +1,9 @@
 <snippet>
-	<content><![CDATA[
-
-		
-// === <$1 ===
-@include respond-max(${1:768px}) {
+	<content><![CDATA[@include respond-max(${1:768px}) {
 	$0
-}
-// === end <$1 ===
-
-]]>
+}]]>
 </content>
-	<tabTrigger>ko</tabTrigger>
+	<tabTrigger>rmax</tabTrigger>
 	<description>Respond Max (Media Query) code block</description>
 	<scope>source.scss</scope>
 </snippet>

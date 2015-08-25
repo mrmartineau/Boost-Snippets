@@ -1,16 +1,9 @@
 <snippet>
-	<content><![CDATA[
-
-		
-// === $1> ===
-@include respond-min(${1:768}) {
+	<content><![CDATA[@include respond-min(${1:768}) {
 	$0
-}
-// === end $1> ===
-
-]]>
+}]]>
 </content>
-	<tabTrigger>ko</tabTrigger>
+	<tabTrigger>rmin</tabTrigger>
 	<description>Respond Min (Media Query) code block</description>
 	<scope>source.scss</scope>
 </snippet>
