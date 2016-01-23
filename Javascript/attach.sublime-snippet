@@ -1,0 +1,49 @@
+
+<snippet>
+	<content><![CDATA[/**
+ * ${1:ModuleName}
+ * ${2:Description}
+ *
+ * @module
+ * @author ${3:Author}
+ */
+
+var objectAssign = require('object-assign'); // Requires the object-assign npm module
+
+/**
+ * @constructor
+ * @param {Element} element
+ */
+function $1(element, options) {
+	var opts;
+	this.element = element;
+
+	if (arguments.length > 1) {
+		opts = options || {};
+	} else {
+		opts = JSON.parse(this.element.getAttribute('data-${1/(.*)/\L\1/}-options')) || {};
+	}
+
+	this.options = objectAssign({}, this.defaultOptions, opts));
+
+	this.addEvents();
+}
+
+
+/** Default options */
+$1.prototype.defaultOptions = {
+
+};
+
+
+/** Add events */
+$1.prototype.addEvents = function () {
+
+};
+
+module.exports = $1;
+$0]]></content>
+	<tabTrigger>attach</tabTrigger>
+	<description>Object</description>
+	<scope>source.js</scope>
+</snippet>
