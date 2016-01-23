@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[@include respond-max(${1:768px}) {
+	<content><![CDATA[@include respond-max(${1:\$bp-single-col}) {
 	$0
 }]]>
 </content>

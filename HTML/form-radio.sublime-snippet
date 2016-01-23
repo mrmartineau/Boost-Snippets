@@ -1,19 +1,11 @@
 <snippet>
-	<content><![CDATA[<div class="form-controlGroup g-span6 g-col">
-	<label class="form-label">Radio buttons</label>
-	<div class="form-controlGroup-inputWrapper">
-		<label class="control">
-			<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-			This is a radio
-		</label>
-		<label class="control">
-			<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-			This is another radio
-		</label>
-	</div>
-</div>
+	<content><![CDATA[<label class="control control--custom">
+	<input class="control--custom-input" type="radio" id="$1" name="$1" ${2:checked}/>
+	<span class="control-indicator control-indicator--radio"></span>
+	${3:My Radio Button Label Text}
+</label>
 $0]]></content>
-	<tabTrigger>ko</tabTrigger>
-	<description>Form columns (2)</description>
+	<tabTrigger>radio</tabTrigger>
+	<description>Form - custom radio</description>
 	<scope>text.html</scope>
 </snippet>

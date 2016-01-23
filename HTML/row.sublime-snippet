@@ -2,7 +2,7 @@
 	<content><![CDATA[<div class="g-row">
 	$0
 </div>]]></content>
-	<tabTrigger>ko</tabTrigger>
+	<tabTrigger>row</tabTrigger>
 	<description>Choreographic grid row</description>
 	<scope>text.html</scope>
 </snippet>

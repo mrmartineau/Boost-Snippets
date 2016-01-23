@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[<table class="table${1: table--bordered}${2: table--striped}${3: table--hover}${4: table--rounded}" cellpadding="0" cellspacing="0">
+	<content><![CDATA[<table class="${1: table--striped}${3: table--hover}" cellpadding="0" cellspacing="0">
 	<thead>
 		<th>Table head</th>
 		<th>Table head</th>
@@ -18,7 +18,7 @@
 		<td>Table foot</td>
 	</tfoot>
 </table>$0]]></content>
-	<tabTrigger>ko</tabTrigger>
+	<tabTrigger>table</tabTrigger>
 	<description>Table</description>
 	<scope>text.html</scope>
 </snippet>

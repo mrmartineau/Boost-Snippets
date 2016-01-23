@@ -1,19 +1,17 @@
 <snippet>
-	<content><![CDATA[<!-- Custom file uploads -->
-<div class="form-controlGroup">
-	<label class="form-label" for="file">File upload (alt)<br>
-		<small>This version hides the default file input, you will need js to change the 'Choose file..' copy </small>
-	</label>
+	<content><![CDATA[<div class="form-controlGroup">
+	<label class="form-label" for="${1:for}">${2:Label}</label>
 
 	<div class="form-controlGroup-inputWrapper">
-		<!-- Wrap a input[type=file] element with .form-input--fileWrapper--styled -->
-		<label class="form-input form-input--fileWrapper--styled">
-			<input class="form-input-file" type="file" id="file" accept="image/*" size="14" />
+		<label class="form-input form-input--file">
+			<span class="form-input--file-text">Choose file..</span>
+			<span class="form-input--file-button">Browse</span>
+			<input class="form-input-file" type="file" id="$1" name="$1"${3: accept="image/*"} size="14" />
 		</label>
 	</div>
 </div>
 $0]]></content>
-	<tabTrigger>ko</tabTrigger>
-	<description>Form - file upload custom</description>
+	<tabTrigger>file</tabTrigger>
+	<description>Form - custom file upload</description>
 	<scope>text.html</scope>
 </snippet>

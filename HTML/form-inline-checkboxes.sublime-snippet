@@ -13,7 +13,7 @@
 	</div>
 </div>
 $0]]></content>
-	<tabTrigger>ko</tabTrigger>
+	<tabTrigger>form</tabTrigger>
 	<description>Form - checkboxes inline</description>
 	<scope>text.html</scope>
 </snippet>

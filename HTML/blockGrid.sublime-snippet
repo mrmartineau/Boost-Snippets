@@ -1,11 +1,8 @@
 <snippet>
-	<content><![CDATA[<ul class="l-blockGrid l-blockGrid--${1:4up}${2: l-blockGrid--2up--narrow}">
-	<li>Item 1</li>
-	<li>Item 2</li>
-	<li>Item 3</li>
-	<li>Item 4</li>
+	<content><![CDATA[<ul class="l-blockGrid l-blockGrid--${1:4}${2: l-blockGrid--${3:2}--narrow}">
+	${4:<li>${5:Item 1}</li>}
 </ul>$0]]></content>
-	<tabTrigger>ko</tabTrigger>
+	<tabTrigger>blockgrid</tabTrigger>
 	<description>Block grid</description>
 	<scope>text.html</scope>
 </snippet>

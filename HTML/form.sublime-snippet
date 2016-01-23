@@ -1,12 +1,12 @@
 <snippet>
-	<content><![CDATA[<form action="#"${1: class="form--horizontal"}>
+	<content><![CDATA[<form action="#" class="form${1: form--horizontal}"}>
 	${2:<fieldset class="form-fieldset">
-		<legend class="form-legend">Your form</legend>
-		$3
+		${3:<legend class="form-legend">${4:Fieldset}</legend>}
+		$5
 	</fieldset>}
 	$0
 </form>]]></content>
-	<tabTrigger>ko</tabTrigger>
+	<tabTrigger>form</tabTrigger>
 	<description>&lt;form&gt;</description>
 	<scope>text.html</scope>
 </snippet>

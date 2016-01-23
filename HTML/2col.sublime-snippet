@@ -7,7 +7,7 @@
 		$4
 	</div>
 </div>$0]]></content>
-	<tabTrigger>ko</tabTrigger>
+	<tabTrigger>cols</tabTrigger>
 	<description>2 grid columns</description>
 	<scope>text.html</scope>
 </snippet>

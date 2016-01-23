@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[@include respond-min(${1:768}) {
+	<content><![CDATA[@include respond-min(${1:\$bp-single-col}) {
 	$0
 }]]>
 </content>
