@@ -13,6 +13,7 @@ var objectAssign = require('object-assign'); // Requires the object-assign npm m
 /**
  * @constructor
  * @param {Element} element
+ * @param {Object} options
  */
 function $1(element, options) {
 	var opts;
@@ -24,7 +25,7 @@ function $1(element, options) {
 		opts = JSON.parse(this.element.getAttribute('data-${1/(.*)/\L\1/}-options')) || {};
 	}
 
-	this.options = objectAssign({}, this.defaultOptions, opts));
+	this.options = objectAssign({}, this.defaultOptions, opts);
 
 	this.addEvents();
 }
