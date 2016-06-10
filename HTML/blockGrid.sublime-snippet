@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[<ul class="l-blockGrid l-blockGrid--${1:4}${2: l-blockGrid--${3:2}--narrow}">
-	${4:<li>${5:Item 1}</li>}
-</ul>$0]]></content>
-	<tabTrigger>blockgrid</tabTrigger>
-	<description>Block grid</description>
-	<scope>text.html</scope>
-</snippet>
