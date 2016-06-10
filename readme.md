@@ -69,3 +69,7 @@ Manually:
  * colors variables: [color&#8677;]
  * default-transition variables: [default-transition&#8677;]
  * font-family variables: [font-family&#8677;]
+
+
+### Sublime to Atom converter
+./atomizr -i "~/htdocs/trykickoff/Kickoff-snippets/SASS/*.sublime-snippet" -o snippets.cson --split
