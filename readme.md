@@ -1,4 +1,6 @@
-# Kickoff Snippets for Sublime Text
+# Kickoff Snippets
+
+> For Sublime Text, Atom
 
 Use these snippets if you use the [Kickoff framework](https://github.com/trykickoff/kickoff/) & [Sublime Text](http://sublimetext.com)
 
@@ -6,7 +8,7 @@ Use these snippets if you use the [Kickoff framework](https://github.com/trykick
 
 ## How to install
 
-If you experience problems or editor crashes please [fill an issue](https://github.com/sergeche/emmet-sublime/issues).
+### Sublime
 
 With [Package Control](http://packagecontrol.io):
 
@@ -17,6 +19,9 @@ Manually:
 
 1. Clone or [download](https://github.com/trykickoff/Kickoff-snippets/archive/master.zip) git repo into your packages folder (in ST, find Browse Packages... menu item to open this folder)
 2. Restart ST editor (if required)
+
+### Atom
+
 
 
 ## Tab triggers

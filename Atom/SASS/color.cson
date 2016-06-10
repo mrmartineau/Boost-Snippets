@@ -1,0 +1,4 @@
+'.source.css.scss':
+  '$color':
+    'prefix': 'color'
+    'body': '\$color${1:primary|secondary|highlight|text|bg}'

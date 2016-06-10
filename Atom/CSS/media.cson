@@ -1,0 +1,8 @@
+'.source.css.source.css.scss':
+  'Media Query (CSS) code block':
+    'prefix': 'media'
+    'body': """
+      @media screen and (${2:min}-width: ${1:768px}) {
+      	$0
+      }
+    """

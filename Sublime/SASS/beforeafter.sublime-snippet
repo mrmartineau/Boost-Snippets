@@ -4,6 +4,6 @@
 	$0
 }]]></content>
 	<tabTrigger>beforeafter</tabTrigger>
-	<description>&:before, &:after</description>
+	<description>:before, :after</description>
 	<scope>source.scss</scope>
 </snippet>

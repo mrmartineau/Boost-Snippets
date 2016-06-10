@@ -1,0 +1,9 @@
+'.source.css.scss':
+  ':after':
+    'prefix': 'after'
+    'body': """
+      &:after {
+      	content: \'\';
+      	$0
+      }
+    """

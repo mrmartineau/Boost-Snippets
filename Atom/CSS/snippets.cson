@@ -1,0 +1,39 @@
+# Generated with Atomizr v0.15.2 - https://github.com/idleberg/atomizr
+'.source.css.source.css.scss':
+  'animation':
+    'prefix': 'animation'
+    'body': 'animation: ${1:single-animation-name} ${2:time e.g.200ms} ${3:timing-function e.g.linear} ${4:delay e.g.0s} ${5:single-animation-iteration-count e.g.infinite} ${6:single-animation-fill-mode e.g.forwards}$0;'
+  'background-size':
+    'prefix': 'bgs'
+    'body': 'background-size: ${1:cover};$0'
+  'background':
+    'prefix': 'background'
+    'body': 'background: ${1:#f2f2f2} url(\'/img/${2:/ui/}$3\') ${4:left} ${5:top} ${6:no-repeat};$0'
+  'border-radius':
+    'prefix': 'border-radius'
+    'body': 'border-radius: ${1:5px};$0'
+  'box-shadow':
+    'prefix': 'box-shadow'
+    'body': 'box-shadow: ${1:0} ${2:1px} ${3:3px} ${4:rgba(0,0,0,.25)};$0'
+  'box-sizing':
+    'prefix': 'box-sizing'
+    'body': 'box-sizing: ${1:border-box};$0'
+  'Media Query (CSS) code block':
+    'prefix': 'media'
+    'body': """
+      @media screen and (${2:min}-width: ${1:768px}) {
+      	$0
+      }
+    """
+  'rotate':
+    'prefix': 'rotate'
+    'body': 'transform: rotate(${1:2deg});'
+  'transform':
+    'prefix': 'transform'
+    'body': 'transform: ${1:rotate() scale() translate3d()};$0'
+  'transition':
+    'prefix': 'transition'
+    'body': 'transition: ${1:all 200ms ease-in-out};$0'
+  'translate':
+    'prefix': 'translate'
+    'body': 'transform: translate3d(${1:x} ${2:y} ${2:z});'

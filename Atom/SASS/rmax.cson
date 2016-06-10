@@ -1,0 +1,8 @@
+'.source.css.scss':
+  'Respond Max (Media Query) code block':
+    'prefix': 'rmax'
+    'body': """
+      @include respond-max(${1:mid}) {
+      	$0
+      }
+    """

@@ -1,0 +1,4 @@
+'.source.css.scss':
+  '$font-family':
+    'prefix': 'font-family'
+    'body': '\$font-family-${1:base|sans|serif|mono}'
