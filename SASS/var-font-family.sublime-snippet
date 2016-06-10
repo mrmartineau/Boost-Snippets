@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$font-family-${1:base|sans|serif|mono}]]></content>
+	<tabTrigger>font-family</tabTrigger>
+	<description>$font-family</description>
+	<scope>source.scss</scope>
+</snippet>

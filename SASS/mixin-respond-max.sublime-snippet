@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[@include respond-max(${1:\$bp-single-col}) {
+	<content><![CDATA[@include respond-max(${1:mid}) {
 	$0
 }]]>
 </content>
