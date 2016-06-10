@@ -2,13 +2,15 @@
 <snippet>
 	<content><![CDATA[/**
  * ${1:ModuleName}
- * ${2:Description}
- *
- * @module
+ * @module $1
+ * @description ${2:Description}
  * @author ${3:Author}
+ *
+ * @usage
+   attach.add('$1', function(el, id) {
+     el[id] = el[id] || new $1(el, JSON.parse(el.getAttribute('data-${1/(.*)/\L\1/}-options')) );
+   });
  */
-
-var objectAssign = require('object-assign'); // Requires the object-assign npm module
 
 /**
  * @constructor
@@ -18,14 +20,7 @@ var objectAssign = require('object-assign'); // Requires the object-assign npm m
 function $1(element, options) {
 	var opts;
 	this.element = element;
-
-	if (arguments.length > 1) {
-		opts = options || {};
-	} else {
-		opts = JSON.parse(this.element.getAttribute('data-${1/(.*)/\L\1/}-options')) || {};
-	}
-
-	this.options = objectAssign({}, this.defaultOptions, opts);
+	this.options = Object.assign(this.defaultOptions, options);
 
 	this.addEvents();
 }
