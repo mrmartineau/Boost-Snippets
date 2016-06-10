@@ -1,8 +1,8 @@
 <snippet>
-	<content><![CDATA[<div class="g-row">
+	<content><![CDATA[<div class="g${1: g--stack--mid}${2: g--gutter}">
 	$0
 </div>]]></content>
-	<tabTrigger>row</tabTrigger>
-	<description>Choreographic grid row</description>
+	<tabTrigger>grid</tabTrigger>
+	<description>Grid row</description>
 	<scope>text.html</scope>
 </snippet>
