@@ -1,6 +1,6 @@
 {
   "name": "kickoff-snippets",
-  "version": "2.0.0",
+  "version": "5.0.0",
   "main": "./lib/main",
   "description": "Useful snippets for Sublime Text and Atom",
   "repository": "https://github.com/TryKickoff/kickoff-snippets",
