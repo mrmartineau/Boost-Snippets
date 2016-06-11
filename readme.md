@@ -2,7 +2,7 @@
 
 > For Sublime Text, Atom
 
-Use these snippets if you use the [Kickoff framework](https://github.com/trykickoff/kickoff/) & [Sublime Text](http://sublimetext.com)
+Use these snippets if you use the [Kickoff framework](https://github.com/trykickoff/kickoff/) & [Sublime Text](http://sublimetext.com) or [Atom](https://atom.io)
 
 * [Kickoff demos](http://trykickoff.io/demos/)
 
@@ -12,63 +12,59 @@ Use these snippets if you use the [Kickoff framework](https://github.com/trykick
 
 With [Package Control](http://packagecontrol.io):
 
-1. Run “Package Control: Install Package” command, find and install `Kickoff Snippets` plugin.
-2. Restart ST editor (if required)
-
-Manually:
-
-1. Clone or [download](https://github.com/trykickoff/Kickoff-snippets/archive/master.zip) git repo into your packages folder (in ST, find Browse Packages... menu item to open this folder)
+1. Run `Package Control: Install Package` command, find and install **Kickoff Snippets** plugin.
 2. Restart ST editor (if required)
 
 ### Atom
-
+1. Go to `Atom > Preferences...` then search for **Kickoff Snippets** in Packages tab.
+2. Restart Atom.
 
 
 ## Tab triggers
 
 * **CSS**
- * animation: [animation&#8677;]
- * background-size: [background-size&#8677;]
- * background: [background&#8677;]
- * border-radius: [border-radius&#8677;]
- * box-shadow: [box-shadow&#8677;]
- * media-query: [media-query&#8677;]
- * transform: [transform&#8677;]
- * transition: [transition&#8677;]
- * translate3d: [translate3d&#8677;]
+ * animation: <kbd>animation</kbd> <kbd>TAB</kbd>
+ * background-size: <kbd>background-size</kbd> <kbd>TAB</kbd>
+ * background: <kbd>background</kbd> <kbd>TAB</kbd>
+ * border-radius: <kbd>border-radius</kbd> <kbd>TAB</kbd>
+ * box-shadow: <kbd>box-shadow</kbd> <kbd>TAB</kbd>
+ * media-query: <kbd>media-query</kbd> <kbd>TAB</kbd>
+ * transform: <kbd>transform</kbd> <kbd>TAB</kbd>
+ * transition: <kbd>transition</kbd> <kbd>TAB</kbd>
+ * translate3d: <kbd>translate3d</kbd> <kbd>TAB</kbd>
 * **HTML**
- * 2 grid columns: [grid&#8677;]
- * grid row: [grid&#8677;]
- * grid column: [grid&#8677;]
- * media object: [media&#8677;]
- * button: [btn&#8677;]
- * fluid video: [video&#8677;]
- * checkbox: [checkbox&#8677;]
- * radio: [radio&#8677;]
- * select: [select&#8677;]
- * file: [file&#8677;]
- * form actions: [actions&#8677;]
- * input: [input&#8677;]
- * table: [table&#8677;]
+ * 2 grid columns: <kbd>grid</kbd> <kbd>TAB</kbd>
+ * grid row: <kbd>grid</kbd> <kbd>TAB</kbd>
+ * grid column: <kbd>grid</kbd> <kbd>TAB</kbd>
+ * media object: <kbd>media</kbd> <kbd>TAB</kbd>
+ * button: <kbd>btn</kbd> <kbd>TAB</kbd>
+ * fluid video: <kbd>video</kbd> <kbd>TAB</kbd>
+ * checkbox: <kbd>checkbox</kbd> <kbd>TAB</kbd>
+ * radio: <kbd>radio</kbd> <kbd>TAB</kbd>
+ * select: <kbd>select</kbd> <kbd>TAB</kbd>
+ * file: <kbd>file</kbd> <kbd>TAB</kbd>
+ * form actions: <kbd>actions</kbd> <kbd>TAB</kbd>
+ * input: <kbd>input</kbd> <kbd>TAB</kbd>
+ * table: <kbd>table</kbd> <kbd>TAB</kbd>
 * **Javascript**
- * es6 module: [es6&#8677;]
- * attach.js module: [attach&#8677;]
+ * es6 module: <kbd>es6</kbd> <kbd>TAB</kbd>
+ * attach.js module: <kbd>attach</kbd> <kbd>TAB</kbd>
 * **SCSS**
- * before: [before&#8677;]
- * after: [after&#8677;]
- * before&after: [beforeafter&#8677;]
- * font-size mixin: [font-size&#8677;]
- * hidpi mixin: [hidpi&#8677;]
- * respond-min mixin: [rmin&#8677;]
- * respond-max mixin: [rmax&#8677;]
- * respond-minmax mixin: [rminmax&#8677;]
- * rotate mixin: [rotate&#8677;]
- * size mixin: [size&#8677;]
- * square mixin: [square&#8677;]
- * modular-scale function: [modular-scale&#8677;]
- * colors variables: [color&#8677;]
- * default-transition variables: [default-transition&#8677;]
- * font-family variables: [font-family&#8677;]
+ * before: <kbd>before</kbd> <kbd>TAB</kbd>
+ * after: <kbd>after</kbd> <kbd>TAB</kbd>
+ * before&after: <kbd>beforeafter</kbd> <kbd>TAB</kbd>
+ * font-size mixin: <kbd>font-size</kbd> <kbd>TAB</kbd>
+ * hidpi mixin: <kbd>hidpi</kbd> <kbd>TAB</kbd>
+ * respond-min mixin: <kbd>rmin</kbd> <kbd>TAB</kbd>
+ * respond-max mixin: <kbd>rmax</kbd> <kbd>TAB</kbd>
+ * respond-minmax mixin: <kbd>rminmax</kbd> <kbd>TAB</kbd>
+ * rotate mixin: <kbd>rotate</kbd> <kbd>TAB</kbd>
+ * size mixin: <kbd>size</kbd> <kbd>TAB</kbd>
+ * square mixin: <kbd>square</kbd> <kbd>TAB</kbd>
+ * modular-scale function: <kbd>modular-scale</kbd> <kbd>TAB</kbd>
+ * colors variables: <kbd>color</kbd> <kbd>TAB</kbd>
+ * default-transition variables: <kbd>default-transition</kbd> <kbd>TAB</kbd>
+ * font-family variables: <kbd>font-family</kbd> <kbd>TAB</kbd>
 
 
 ### Sublime to Atom converter
