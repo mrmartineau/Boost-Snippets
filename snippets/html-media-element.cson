@@ -1,0 +1,13 @@
+'.text.html':
+  'Kickoff - media element':
+    'prefix': 'media'
+    'body': """
+      <div class=\"media\">
+      	<div class=\"media-img${1: media--rev}\">
+      		<img src=\"${2:/path/to/img.jpg}\">
+      	</div>
+      	<div class=\"media-body\">
+      		$3
+      	</div>
+      </div>$0
+    """

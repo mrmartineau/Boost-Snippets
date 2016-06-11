@@ -1,4 +1,0 @@
-'.source.css.scss':
-  'modular-scale font-size mixin':
-    'prefix': 'modular-scale'
-    'body': 'modular-scale($font-size-base, ${1:4}, $type-scale)'

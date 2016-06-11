@@ -1,4 +1,0 @@
-'.source.css.scss':
-  'square() Mixin':
-    'prefix': 'square'
-    'body': '@include square(${1:50}px);$0'

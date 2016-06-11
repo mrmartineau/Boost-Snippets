@@ -1,4 +1,0 @@
-'.source.css.source.css.scss':
-  'transform':
-    'prefix': 'transform'
-    'body': 'transform: ${1:rotate() scale() translate3d()};$0'

@@ -1,4 +1,0 @@
-'.source.css.source.css.scss':
-  'rotate':
-    'prefix': 'rotate'
-    'body': 'transform: rotate(${1:2deg});'

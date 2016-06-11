@@ -1,0 +1,11 @@
+'.text.html':
+  'Kickoff - form - custom radio':
+    'prefix': 'radio'
+    'body': """
+      <label class=\"control control--custom\" for=\"$1\">
+      	<input class=\"control--custom-input\" type=\"radio\" id=\"$1\" name=\"$1\" value=\"$2\"/>
+      	<span class=\"control-indicator control-indicator--radio\"></span>
+      	${3:My Radio Button Label Text}
+      </label>
+      $0
+    """

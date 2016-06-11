@@ -1,9 +1,0 @@
-'.source.css.scss':
-  ':before':
-    'prefix': 'before'
-    'body': """
-      &:before {
-      	content: \'\';
-      	$0
-      }
-    """

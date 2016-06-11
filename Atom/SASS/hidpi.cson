@@ -1,8 +1,0 @@
-'.source.css.scss':
-  'hidpi':
-    'prefix': 'hidpi'
-    'body': """
-      @include hidpi(${1:1.5}){
-      	$0
-      };
-    """

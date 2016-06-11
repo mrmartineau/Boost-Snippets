@@ -1,0 +1,4 @@
+'.source.css.scss, .source.scss, .source.css.sass, .source.sass':
+  'Kickoff - $default-transition var':
+    'prefix': 'default-transition'
+    'body': '\$default-transition${1:-timing|-duration}'

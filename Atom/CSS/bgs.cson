@@ -1,4 +1,0 @@
-'.source.css.source.css.scss':
-  'background-size':
-    'prefix': 'bgs'
-    'body': 'background-size: ${1:cover};$0'

@@ -1,0 +1,8 @@
+'.source.css':
+  'Kickoff - Media Query':
+    'prefix': 'media'
+    'body': """
+      @media screen and (${2:min}-width: ${1:768px}) {
+      	$0
+      }
+    """

@@ -1,0 +1,4 @@
+'.source.css':
+  'Kickoff - background-size':
+    'prefix': 'background-size'
+    'body': 'background-size: ${1:cover};$0'

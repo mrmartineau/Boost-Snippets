@@ -1,0 +1,4 @@
+'.source.css':
+  'Kickoff - box-sizing':
+    'prefix': 'box-sizing'
+    'body': 'box-sizing: ${1:border-box};$0'

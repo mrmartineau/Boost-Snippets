@@ -1,0 +1,4 @@
+'.source.css':
+  'Kickoff - animation':
+    'prefix': 'animation'
+    'body': 'animation: ${1:single-animation-name} ${2:time e.g.200ms} ${3:timing-function e.g.linear} ${4:delay e.g.0s} ${5:single-animation-iteration-count e.g.infinite} ${6:single-animation-fill-mode e.g.forwards}$0;'

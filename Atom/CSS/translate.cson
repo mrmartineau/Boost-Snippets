@@ -1,4 +1,0 @@
-'.source.css.source.css.scss':
-  'translate':
-    'prefix': 'translate'
-    'body': 'transform: translate3d(${1:x} ${2:y} ${2:z});'

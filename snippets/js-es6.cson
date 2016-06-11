@@ -1,0 +1,17 @@
+'.source.js':
+  'Kickoff - ES6/ES2015 starter module':
+    'prefix': 'es6'
+    'body': """
+      /**
+       * ${1:moduleName}
+       * @module $1
+       * @description ${2:module description}
+       * @author ${3:author name}
+       */
+
+      // dependencies for this module go here
+
+      export default function $1() {
+      	$0
+      }
+    """

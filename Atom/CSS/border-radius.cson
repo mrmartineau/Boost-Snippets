@@ -1,4 +1,0 @@
-'.source.css.source.css.scss':
-  'border-radius':
-    'prefix': 'border-radius'
-    'body': 'border-radius: ${1:5px};$0'

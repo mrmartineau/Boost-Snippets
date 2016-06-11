@@ -1,4 +1,0 @@
-'.source.css.scss':
-  '$default-transition':
-    'prefix': 'default-transition'
-    'body': '\$default-transition${1:-timing|-duration}'

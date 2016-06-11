@@ -1,0 +1,15 @@
+'.text.html':
+  'Kickoff - form - custom select':
+    'prefix': 'select'
+    'body': """
+      <div class=\"form-controlGroup\">
+      	<label for=\"$1\" class=\"form-label\">Custom select</label>
+      	<div class=\"form-controlGroup-inputWrapper form-controlGroup-inputWrapper--select\">
+      		<select id=\"$1\" name=\"$1\" class=\"form-input form-input--select\">
+      			<option value=\"--\">${2:Default option}</option>
+      			${3:<option value=\"${5:value}\">${4:key}</option>}
+      		</select>
+      	</div>
+      </div>
+      $0
+    """

@@ -1,0 +1,4 @@
+'.source.css':
+  'Kickoff - transform':
+    'prefix': 'transform'
+    'body': 'transform: ${1:rotate() scale() translate3d()};$0'

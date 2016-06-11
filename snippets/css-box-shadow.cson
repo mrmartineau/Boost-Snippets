@@ -1,0 +1,4 @@
+'.source.css':
+  'Kickoff - box-shadow':
+    'prefix': 'box-shadow'
+    'body': 'box-shadow: ${1:0} ${2:1px} ${3:3px} ${4:rgba(0,0,0,.25)};$0'

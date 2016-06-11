@@ -1,4 +1,0 @@
-'.source.css.scss':
-  'size() Mixin':
-    'prefix': 'size'
-    'body': '@include size(${1:10}px,${2:10}px);$0'
