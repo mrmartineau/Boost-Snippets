@@ -3,6 +3,6 @@
 	$0
 }]]></content>
 	<tabTrigger>media</tabTrigger>
-	<description>Media Query (CSS) code block</description>
+	<description>Kickoff - media query</description>
 	<scope>source.css,source.scss</scope>
 </snippet>

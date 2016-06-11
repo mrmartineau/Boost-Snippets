@@ -4,6 +4,6 @@
 }]]>
 </content>
 	<tabTrigger>rmax</tabTrigger>
-	<description>Respond Max (Media Query) code block</description>
+	<description>Kickoff - respond-max() (Media Query) mixin</description>
 	<scope>source.scss</scope>
 </snippet>

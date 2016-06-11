@@ -4,6 +4,6 @@
 	$0
 }]]></content>
 	<tabTrigger>after</tabTrigger>
-	<description>:after</description>
+	<description>Kickoff - :after</description>
 	<scope>source.scss</scope>
 </snippet>

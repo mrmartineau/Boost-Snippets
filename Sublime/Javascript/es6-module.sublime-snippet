@@ -9,10 +9,10 @@
 // dependencies for this module go here
 
 export default function $1() {
-
+	$0
 }
 ]]></content>
 	<tabTrigger>es6</tabTrigger>
-	<description>ES6/ES2015 starter module</description>
+	<description>Kickoff - ES6/ES2015 starter module</description>
 	<scope>source.js</scope>
 </snippet>

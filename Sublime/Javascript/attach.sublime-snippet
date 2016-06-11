@@ -34,12 +34,12 @@ $1.prototype.defaultOptions = {
 
 /** Add events */
 $1.prototype.addEvents = function () {
-
+	$0
 };
 
 module.exports = $1;
 $0]]></content>
 	<tabTrigger>attach</tabTrigger>
-	<description>Object</description>
+	<description>Kickoff - attach.js starter module</description>
 	<scope>source.js</scope>
 </snippet>
