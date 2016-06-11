@@ -19,6 +19,7 @@ With [Package Control](http://packagecontrol.io):
 1. Go to `Atom > Preferences...` then search for **Kickoff Snippets** in Packages tab.
 2. Restart Atom.
 
+---
 
 ## Tab triggers
 
