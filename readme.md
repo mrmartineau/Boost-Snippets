@@ -16,7 +16,7 @@ With [Package Control](http://packagecontrol.io):
 2. Restart ST editor (if required)
 
 ### Atom
-1. Go to `Atom > Preferences...` then search for **Kickoff Snippets** in Packages tab.
+1. Go to `Atom > Preferences...` then search for **kickoff-snippets** in Packages tab.
 2. Restart Atom.
 
 ---
