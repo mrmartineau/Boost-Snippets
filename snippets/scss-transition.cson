@@ -1,0 +1,4 @@
+'.source.css.scss, .source.scss, .source.css.sass, .source.sass':
+  'Kickoff - transition':
+    'prefix': 'transition'
+    'body': 'transition: ${1:$default-transition};$0'
