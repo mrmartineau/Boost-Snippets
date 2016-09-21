@@ -1,0 +1,8 @@
+'.text.html':
+  'Kickoff - SVG (use)':
+    'prefix': 'svg'
+    'body': """
+      <svg role="img" title="${1:Twitter}" ${2:class="icon icon--large"} ${3:viewbox="$4"}>
+      	<use xlink:href="${3:/assets/dist/img/icons.svg}#${4:twitter|facebook}"/>
+      </svg>$0
+    """
