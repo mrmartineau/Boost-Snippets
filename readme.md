@@ -76,3 +76,10 @@ With [Package Control](http://packagecontrol.io):
 
 ### Sublime to Atom converter
 ./atomizr -i "~/htdocs/trykickoff/Kickoff-snippets/SASS/*.sublime-snippet" -o snippets.cson --split
+
+## Publishing to Atom package or packagecontrol.io
+Ensure you have Atom installed, then run:
+```
+apm publish major|minor|path
+```
+This bumps the version, adds a tag, publishes to Atom's package repo. Package Control watches for changes so will take a little longer.
