@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[&:active {
+	$0
+}]]></content>
+	<tabTrigger>active</tabTrigger>
+	<description>Kickoff - :active</description>
+	<scope>source.scss</scope>
+</snippet>

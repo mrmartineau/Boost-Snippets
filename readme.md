@@ -47,11 +47,16 @@ With [Package Control](http://packagecontrol.io):
  * form actions: <kbd>actions</kbd> <kbd>TAB</kbd>
  * input: <kbd>input</kbd> <kbd>TAB</kbd>
  * table: <kbd>table</kbd> <kbd>TAB</kbd>
+ * svg: <kbd>svg</kbd> <kbd>TAB</kbd>
 * **Javascript**
  * es6 module: <kbd>es6</kbd> <kbd>TAB</kbd>
  * attach.js module: <kbd>attach</kbd> <kbd>TAB</kbd>
 * **SCSS**
  * before: <kbd>before</kbd> <kbd>TAB</kbd>
+ * link: <kbd>link</kbd> <kbd>TAB</kbd>
+ * visited: <kbd>visited</kbd> <kbd>TAB</kbd>
+ * active: <kbd>active</kbd> <kbd>TAB</kbd>
+ * hover: <kbd>hover</kbd> <kbd>TAB</kbd>
  * after: <kbd>after</kbd> <kbd>TAB</kbd>
  * before&after: <kbd>beforeafter</kbd> <kbd>TAB</kbd>
  * font-size mixin: <kbd>font-size</kbd> <kbd>TAB</kbd>
@@ -62,8 +67,9 @@ With [Package Control](http://packagecontrol.io):
  * rotate mixin: <kbd>rotate</kbd> <kbd>TAB</kbd>
  * size mixin: <kbd>size</kbd> <kbd>TAB</kbd>
  * square mixin: <kbd>square</kbd> <kbd>TAB</kbd>
+ * transition: <kbd>transition</kbd> <kbd>TAB</kbd>
  * modular-scale function: <kbd>modular-scale</kbd> <kbd>TAB</kbd>
- * colors variables: <kbd>color</kbd> <kbd>TAB</kbd>
+ * color variables: <kbd>color</kbd> <kbd>TAB</kbd>
  * default-transition variables: <kbd>default-transition</kbd> <kbd>TAB</kbd>
  * font-family variables: <kbd>font-family</kbd> <kbd>TAB</kbd>
 

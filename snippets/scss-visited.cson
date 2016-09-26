@@ -1,0 +1,8 @@
+'.source.css.scss, .source.scss, .source.css.sass, .source.sass':
+  'Kickoff - :visited':
+    'prefix': 'visited'
+    'body': """
+      &:visited {
+      	$0
+      }
+    """
