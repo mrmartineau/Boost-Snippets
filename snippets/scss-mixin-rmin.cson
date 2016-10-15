@@ -2,7 +2,7 @@
   'Kickoff - respond-min (Media Query) mixin':
     'prefix': 'rmin'
     'body': """
-      @include respond-min(${1:mid}) {
+      @include ko-respond-min(${1:mid}) {
       	$0
       }
     """

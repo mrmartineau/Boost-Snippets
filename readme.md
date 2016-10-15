@@ -51,6 +51,7 @@ With [Package Control](http://packagecontrol.io):
 * **Javascript**
  * es6 module: <kbd>es6</kbd> <kbd>TAB</kbd>
  * attach.js module: <kbd>attach</kbd> <kbd>TAB</kbd>
+ * double-dollar: <kbd>$$</kbd> <kbd>TAB</kbd>
 * **SCSS**
  * before: <kbd>before</kbd> <kbd>TAB</kbd>
  * link: <kbd>link</kbd> <kbd>TAB</kbd>
@@ -61,14 +62,16 @@ With [Package Control](http://packagecontrol.io):
  * before&after: <kbd>beforeafter</kbd> <kbd>TAB</kbd>
  * font-size mixin: <kbd>font-size</kbd> <kbd>TAB</kbd>
  * hidpi mixin: <kbd>hidpi</kbd> <kbd>TAB</kbd>
- * respond-min mixin: <kbd>rmin</kbd> <kbd>TAB</kbd>
- * respond-max mixin: <kbd>rmax</kbd> <kbd>TAB</kbd>
- * respond-minmax mixin: <kbd>rminmax</kbd> <kbd>TAB</kbd>
+ * respond-min mixin: <kbd>rmin</kbd> <kbd>TAB</kbd> (deprecated)
+ * respond-max mixin: <kbd>rmax</kbd> <kbd>TAB</kbd> (deprecated)
+ * respond-minmax mixin: <kbd>rminmax</kbd> <kbd>TAB</kbd> (deprecated)
  * rotate mixin: <kbd>rotate</kbd> <kbd>TAB</kbd>
  * size mixin: <kbd>size</kbd> <kbd>TAB</kbd>
  * square mixin: <kbd>square</kbd> <kbd>TAB</kbd>
  * transition: <kbd>transition</kbd> <kbd>TAB</kbd>
  * modular-scale function: <kbd>modular-scale</kbd> <kbd>TAB</kbd>
+ * multiply function: <kbd>multiply</kbd> <kbd>TAB</kbd>
+ * map-deep-get function: <kbd>map-deep-get</kbd> <kbd>TAB</kbd>
  * color variables: <kbd>color</kbd> <kbd>TAB</kbd>
  * default-transition variables: <kbd>default-transition</kbd> <kbd>TAB</kbd>
  * font-family variables: <kbd>font-family</kbd> <kbd>TAB</kbd>

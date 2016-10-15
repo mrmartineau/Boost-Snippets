@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[@include hidpi(${1:1.5}){
+	<content><![CDATA[@include ko-hidpi(${1:1.5}){
 	$0
 };]]></content>
 	<tabTrigger>hidpi</tabTrigger>

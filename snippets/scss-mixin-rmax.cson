@@ -2,7 +2,7 @@
   'Kickoff - respond-max() (Media Query) mixin':
     'prefix': 'rmax'
     'body': """
-      @include respond-max(${1:mid}) {
+      @include ko-respond-max(${1:mid}) {
       	$0
       }
     """

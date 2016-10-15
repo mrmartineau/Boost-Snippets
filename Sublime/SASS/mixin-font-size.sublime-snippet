@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[@include font-size(${1:16/mid/\$font-large});$0]]></content>
+	<content><![CDATA[@include ko-font-size(${1:16/mid/\$font-large});$0]]></content>
 	<tabTrigger>fs</tabTrigger>
 	<description>Kickoff - font-size() REM mixin</description>
 	<scope>source.scss</scope>

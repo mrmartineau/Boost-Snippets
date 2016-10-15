@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[@include respond-min(${1:mid}) {
+	<content><![CDATA[@include ko-respond-min(${1:mid}) {
 	$0
 }]]>
 </content>

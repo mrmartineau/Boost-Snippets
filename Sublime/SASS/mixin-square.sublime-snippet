@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[@include square(${1:50}px);$0]]></content>
+	<content><![CDATA[@include ko-square(${1:50}px);$0]]></content>
 	<tabTrigger>square</tabTrigger>
 	<description>Kickoff - square() mixin</description>
 	<scope>source.scss</scope>

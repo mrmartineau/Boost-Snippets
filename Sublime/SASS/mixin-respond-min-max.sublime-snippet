@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[@include respond-min-max(${1:narrow}, ${2:large}) {
+	<content><![CDATA[@include ko-respond-min-max(${1:narrow}, ${2:large}) {
 	$0
 }]]>
 </content>
