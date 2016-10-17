@@ -61,6 +61,7 @@ With [Package Control](http://packagecontrol.io):
  * after: <kbd>after</kbd> <kbd>TAB</kbd>
  * before&after: <kbd>beforeafter</kbd> <kbd>TAB</kbd>
  * font-size mixin: <kbd>font-size</kbd> <kbd>TAB</kbd>
+ * media-query mixin: <kbd>mq</kbd> <kbd>TAB</kbd>
  * hidpi mixin: <kbd>hidpi</kbd> <kbd>TAB</kbd>
  * respond-min mixin: <kbd>rmin</kbd> <kbd>TAB</kbd> (deprecated)
  * respond-max mixin: <kbd>rmax</kbd> <kbd>TAB</kbd> (deprecated)

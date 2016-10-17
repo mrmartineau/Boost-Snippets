@@ -3,7 +3,7 @@
 	$0
 }]]>
 </content>
-	<tabTrigger>media</tabTrigger>
+	<tabTrigger>mq</tabTrigger>
 	<description>Kickoff - media() (Media Query) mixin</description>
 	<scope>source.scss</scope>
 </snippet>

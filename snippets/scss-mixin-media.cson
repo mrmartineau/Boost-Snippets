@@ -1,6 +1,6 @@
 '.source.css.scss, .source.scss, .source.css.sass, .source.sass':
   'Kickoff - media() (Media Query) mixin':
-    'prefix': 'media'
+    'prefix': 'mq'
     'body': """
       @include media(${1:'>mid'}) {
       	$0
