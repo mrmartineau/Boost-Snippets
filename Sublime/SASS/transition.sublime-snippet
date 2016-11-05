@@ -1,6 +1,6 @@
 <snippet>
-	<content><![CDATA[transition: ${1:$default-transition};$0]]></content>
-	<tabTrigger>transition</tabTrigger>
-	<description>Kickoff - transition</description>
-	<scope>source.css,source.scss</scope>
+	<content><![CDATA[transition: ${1:\$default-transition};$0]]></content>
+	<tabTrigger>trans</tabTrigger>
+	<description>Kickoff - transition (var)</description>
+	<scope>source.scss</scope>
 </snippet>

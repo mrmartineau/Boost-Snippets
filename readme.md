@@ -29,7 +29,7 @@ With [Package Control](http://packagecontrol.io):
  * background: <kbd>background</kbd> <kbd>TAB</kbd>
  * border-radius: <kbd>border-radius</kbd> <kbd>TAB</kbd>
  * box-shadow: <kbd>box-shadow</kbd> <kbd>TAB</kbd>
- * media-query: <kbd>media-query</kbd> <kbd>TAB</kbd>
+ * media-query: <kbd>media</kbd> <kbd>TAB</kbd>
  * transform: <kbd>transform</kbd> <kbd>TAB</kbd>
  * transition: <kbd>transition</kbd> <kbd>TAB</kbd>
  * translate3d: <kbd>translate3d</kbd> <kbd>TAB</kbd>
@@ -61,6 +61,7 @@ With [Package Control](http://packagecontrol.io):
  * after: <kbd>after</kbd> <kbd>TAB</kbd>
  * before&after: <kbd>beforeafter</kbd> <kbd>TAB</kbd>
  * font-size mixin: <kbd>font-size</kbd> <kbd>TAB</kbd>
+ * media-query mixin: <kbd>mq</kbd> <kbd>TAB</kbd>
  * hidpi mixin: <kbd>hidpi</kbd> <kbd>TAB</kbd>
  * respond-min mixin: <kbd>rmin</kbd> <kbd>TAB</kbd> (deprecated)
  * respond-max mixin: <kbd>rmax</kbd> <kbd>TAB</kbd> (deprecated)
@@ -83,6 +84,6 @@ With [Package Control](http://packagecontrol.io):
 ## Publishing to Atom package or packagecontrol.io
 Ensure you have Atom installed, then run:
 ```
-apm publish major|minor|path
+apm publish major|minor|patch
 ```
 This bumps the version, adds a tag, publishes to Atom's package repo. Package Control watches for changes so will take a little longer.
