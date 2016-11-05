@@ -2,7 +2,7 @@
   'Kickoff - :after':
     'prefix': 'after'
     'body': """
-      &:after {
+      &::after {
       	content: \'\';
       	$0
       }

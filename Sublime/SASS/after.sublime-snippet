@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[&:after {
+	<content><![CDATA[&::after {
 	content: '';
 	$0
 }]]></content>

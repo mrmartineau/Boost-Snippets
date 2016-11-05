@@ -2,7 +2,7 @@
   'Kickoff - :before, :after':
     'prefix': 'beforeafter'
     'body': """
-      &:before, &:after {
+      &::before, &::after {
       	content: \'\';
       	$0
       }
