@@ -87,3 +87,6 @@ Ensure you have Atom installed, then run:
 apm publish major|minor|patch
 ```
 This bumps the version, adds a tag, publishes to Atom's package repo. Package Control watches for changes so will take a little longer.
+
+### Convert sublime snippets to VS Code
+Use http://codebeautify.org/javascript-escape-unescape to escape the body of the snippet. Manually copy the rest.

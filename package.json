@@ -6,8 +6,32 @@
   "repository": "https://github.com/TryKickoff/kickoff-snippets",
   "license": "MIT",
   "engines": {
-    "atom": ">0.50.0"
+    "atom": ">0.50.0",
+    "vscode": "^1.5.0"
   },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "css",
+        "path": "./vscode/css.json"
+      },
+      {
+        "language": "scss",
+        "path": "./vscode/scss.json"
+      },
+      {
+        "language": "js",
+        "path": "./vscode/js.json"
+      },
+      {
+        "language": "html",
+        "path": "./vscode/html.json"
+      }
+    ]
+  }
   "activationCommands": {},
-  "dependencies": {}
+  "categories": [
+    "Kickoff",
+    "Snippets"
+  ],
 }
