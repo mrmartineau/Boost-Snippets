@@ -20,7 +20,7 @@
         "path": "./vscode/scss.json"
       },
       {
-        "language": "js",
+        "language": "javascript",
         "path": "./vscode/js.json"
       },
       {

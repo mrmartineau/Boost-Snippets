@@ -1,0 +1,32 @@
+{
+	"svg-use": {
+		"prefix": "use",
+		"body": "<svg role=\"img\" title=\"${1:Twitter}\" ${2:class=\"icon icon--large\"} ${3:viewbox=\"$4\"}>\n\t<use xlink:href=\"${3:/assets/dist/img/icons.svg}#${4:twitter|facebook}\"/>\n</svg>$0",
+		"description": "Kickoff - SVG (use)"
+	},
+	"svg-grid2col": {
+		"prefix": "grid",
+		"body": "<div class=\"g${1: g--stack--mid}${2: g--gutter}\">\n\t<div class=\"g-span${3:6} g-col\">\n\t\t$3\n\t</div>\n\t<div class=\"g-span${4:6} g-col\">\n\t\t$4\n\t</div>\n</div>$0",
+		"description": "Kickoff - 2 grid columns"
+	},
+	"svg-gridcol": {
+		"prefix": "grid",
+		"body": "<div class=\"g-span${1:12} g-col\">\n\t$2\n</div>$0",
+		"description": "Kickoff - 1 grid column"
+	},
+	"svg-gridrow": {
+		"prefix": "grid",
+		"body": "<div class=\"g${1: g--stack--mid}${2: g--gutter}\">\n\t$0\n</div>",
+		"description": "Kickoff - grid row"
+	},
+	"svg-button": {
+		"prefix": "button",
+		"body": "<a href=\"${1:#}\" class=\"btn$2\">${3:Button text}</a>$0",
+		"description": "Kickoff - button"
+	},
+	"svg-fluid-video": {
+		"prefix": "video",
+		"body": "<div class=\"fluidVideo${1: fluidVideo--4-3}\">\n\t${2:<iframe width=\"560\" height=\"315\" src=\"${3://www.youtube-nocookie.com/embed/-5Ae-LhMIG0}\" frameborder=\"0\" allowfullscreen></iframe>}\n</div>$0",
+		"description": "Kickoff - fluid video"
+	}
+}
