@@ -1,6 +1,6 @@
 # Kickoff Snippets
 
-> For Sublime Text, Atom
+> For Sublime Text, Atom & VS Code
 
 Use these snippets if you use the [Kickoff framework](https://github.com/trykickoff/kickoff/) & [Sublime Text](http://sublimetext.com) or [Atom](https://atom.io)
 
@@ -18,6 +18,10 @@ With [Package Control](http://packagecontrol.io):
 ### Atom
 1. Go to `Atom > Preferences...` then search for **kickoff-snippets** in Packages tab.
 2. Restart Atom.
+
+### VS Code
+1. Launch VS Code Quick Open (`⌘+P`), paste the following command, and press enter
+2. `ext install kickoff-snippets`
 
 ---
 
@@ -82,9 +86,13 @@ With [Package Control](http://packagecontrol.io):
 ./atomizr -i "~/htdocs/trykickoff/Kickoff-snippets/SASS/*.sublime-snippet" -o snippets.cson --split
 
 ## Publishing to Atom package or packagecontrol.io
-Ensure you have Atom installed, then run:
+Ensure you have Atom installed, then run (we use `apm` to increment the version number:
+
 ```
 apm publish major|minor|patch
+
+# for VS Code
+vsce publish
 ```
 This bumps the version, adds a tag, publishes to Atom's package repo. Package Control watches for changes so will take a little longer.
 

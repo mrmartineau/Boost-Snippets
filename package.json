@@ -4,6 +4,7 @@
   "main": "./lib/main",
   "description": "Useful snippets for Sublime Text and Atom",
   "repository": "https://github.com/TryKickoff/kickoff-snippets",
+  "publisher": "mrmartineau",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0",
@@ -28,10 +29,9 @@
         "path": "./vscode/html.json"
       }
     ]
-  }
+  },
   "activationCommands": {},
   "categories": [
-    "Kickoff",
     "Snippets"
-  ],
+  ]
 }
