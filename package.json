@@ -27,6 +27,18 @@
       {
         "language": "html",
         "path": "./vscode/html.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./vscode/js.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./vscode/js.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./vscode/js.json"
       }
     ]
   },
