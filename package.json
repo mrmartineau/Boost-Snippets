@@ -1,7 +1,6 @@
 {
     "name": "kickoff-snippets",
     "version": "6.2.1",
-    "main": "./lib/main",
     "description": "Useful snippets for Sublime Text and Atom",
     "repository": "https://github.com/TryKickoff/kickoff-snippets",
     "publisher": "mrmartineau",
@@ -42,7 +41,6 @@
             }
         ]
     },
-    "activationCommands": {},
     "categories": [
         "Snippets"
     ]
