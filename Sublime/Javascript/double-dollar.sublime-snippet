@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[$$('${1:selector}').forEach(function(item) {
+	<content><![CDATA[$$('${1:selector}').forEach(item => {
 	$0
 });
 ]]></content>

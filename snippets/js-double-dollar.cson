@@ -2,7 +2,7 @@
   'Double-dollar':
     'prefix': '$$'
     'body': """
-      $$('${1:selector}').forEach(function(item) {
+      $$('${1:selector}').forEach(item => {
       	$0
       });
     """

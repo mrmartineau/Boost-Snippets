@@ -6,7 +6,7 @@
 	},
 	"js-double-dollar": {
 		"prefix": "$$",
-		"body": "$$('${1:selector}').forEach((item) => {\n\t$0\n});\n",
+		"body": "$$('${1:selector}').forEach(item => {\n\t$0\n});\n",
 		"description": "Double-dollar"
 	},
 	"js-es6": {
