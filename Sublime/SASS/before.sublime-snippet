@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[&::before {
+	content: '';
+	$0
+}]]></content>
+	<tabTrigger>before</tabTrigger>
+	<description>Kickoff - :before</description>
+	<scope>source.scss</scope>
+</snippet>

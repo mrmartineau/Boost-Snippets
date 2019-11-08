@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[<label class="control control--custom" for="$1">
+	<input class="control--custom-input" type="checkbox" id="$1" name="$1" value="$2"/>
+	<span class="control-indicator control-indicator--checkbox"></span>
+	${3:My Checkbox Button Label Text}
+</label>
+$0]]></content>
+	<tabTrigger>checkbox</tabTrigger>
+	<description>Kickoff - form - custom checkbox</description>
+	<scope>text.html</scope>
+</snippet>

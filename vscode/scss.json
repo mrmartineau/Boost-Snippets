@@ -1,0 +1,137 @@
+{
+	"scss-active": {
+		"prefix": "active",
+		"body": "&:active {\n\t$0\n}",
+		"description": "Kickoff - :active"
+	},
+	"scss-after": {
+		"prefix": "after",
+		"body": "&::after {\n\tcontent: '';\n\t$0\n}",
+		"description": "Kickoff - ::after"
+	},
+	"scss-before": {
+		"prefix": "before",
+		"body": "&::before {\n\tcontent: '';\n\t$0\n}",
+		"description": "Kickoff - ::before"
+	},
+	"scss-before-after": {
+		"prefix": "before",
+		"body": "&::before,\n&::after {\n\tcontent: '';\n\t$0\n}",
+		"description": "Kickoff - ::before/::after"
+	},
+	"scss-map-deep-get": {
+		"prefix": "map-deep-get",
+		"body": "ko-map-deep-get(${1:\\$sass-map}, '${2:child}'${3:, '${4:child}'})",
+		"description": "Kickoff - map-deep-get function"
+	},
+	"scss-modular-scale": {
+		"prefix": "modular-scale",
+		"body": "modular-scale(\\$font-size-base, ${1:2}, \\$type-scale)",
+		"description": "Kickoff - modular-scale font-size function"
+	},
+	"scss-multiply": {
+		"prefix": "multiply",
+		"body": "ko-multiply(${1:\\$baseline}, ${2:1})",
+		"description": "Kickoff - multiply function"
+	},
+	"scss-hover": {
+		"prefix": "hover",
+		"body": "&:hover {\n\t$0\n}",
+		"description": "Kickoff - :hover"
+	},
+	"scss-link": {
+		"prefix": "link",
+		"body": "&:link {\n\t$0\n}",
+		"description": "Kickoff - :link"
+	},
+	"scss-visited": {
+		"prefix": "visited",
+		"body": "&:visited {\n\t$0\n}",
+		"description": "Kickoff - :visited"
+	},
+	"scss-font-size": {
+		"prefix": "fs",
+		"body": "@include ko-font-size(${1:16/mid/$font-large})$0",
+		"description": "Kickoff - font-size() REM mixin"
+	},
+	"scss-hidpi": {
+		"prefix": "hidpi",
+		"body": "@include ko-hidpi(${1:1.5}){\n\t$0\n}",
+		"description": "Kickoff - hidpi mixin"
+	},
+	"scss-media": {
+		"prefix": "mq",
+		"body": "@include media(${1:'>mid'}) {\n\t$0\n}",
+		"description": "Kickoff - media() (Media Query) mixin"
+	},
+	"scss-transition": {
+		"prefix": "transition",
+		"body": "transition: ${1:\\$default-transition};$0",
+		"description": "Kickoff - transition (var)"
+	},
+	"scss-colors": {
+		"prefix": "color",
+		"body": "\\$color-${1:primary|secondary|highlight|text|bg}",
+		"description": "Kickoff - $color var"
+	},
+	"scss-font-family": {
+		"prefix": "font-family",
+		"body": "\\$font-family-${1:base|sans|serif|mono}",
+		"description": "Kickoff - $font-family var"
+	},
+	"scss-size": {
+		"prefix": "size",
+		"body": "@include ko-size(${1:10}px,${2:10}px);$0",
+		"description": "Kickoff - size() mixin"
+	},
+	"scss-square": {
+		"prefix": "square",
+		"body": "@include ko-square(${1:50}px);$0",
+		"description": "Kickoff - square() mixin"
+	},
+	"css-border-radius": {
+		"prefix": "border-radius",
+		"body": "border-radius: ${1:5px};$0",
+		"description": "Kickoff - border-radius"
+	},
+	"css-bg-size": {
+		"prefix": "background-size",
+		"body": "background-size: ${1:cover};$0",
+		"description": "Kickoff - background-size"
+	},
+	"css-animation": {
+		"prefix": "animation",
+		"body": "animation: ${1:single-animation-name} ${2:time e.g.200ms} ${3:timing-function e.g.linear} ${4:delay e.g.0s} ${5:single-animation-iteration-count e.g.infinite} ${6:single-animation-fill-mode e.g.forwards}$0;",
+		"description": "Kickoff - animation"
+	},
+	"css-background": {
+		"prefix": "background",
+		"body": "background: ${1:#f2f2f2} url('/img${2:/ui/}$3') ${4:left} ${5:top} ${6:no-repeat};$0",
+		"description": "Kickoff - background"
+	},
+	"css-box-shadow": {
+		"prefix": "box-shadow",
+		"body": "box-shadow: ${1:0} ${2:1px} ${3:3px} ${4:rgba(0,0,0,.25)};$0",
+		"description": "Kickoff - box-shadow"
+	},
+	"css-media-query": {
+		"prefix": "media",
+		"body": "@media screen and (${2:min}-width: ${1:768px}) {\n\t$0\n}",
+		"description": "Kickoff - media query"
+	},
+	"css-rotate": {
+		"prefix": "rotate",
+		"body": "transform: rotate(${1:2deg});",
+		"description": "Kickoff - rotate"
+	},
+	"css-transform": {
+		"prefix": "transform",
+		"body": "transform: ${1:rotate() scale() translate3d()};$0",
+		"description": "Kickoff - transform"
+	},
+	"css-translate": {
+		"prefix": "translate",
+		"body": "transform: translate3d(${1:x} ${2:y} ${2:z});",
+		"description": "Kickoff - translate"
+	}
+}

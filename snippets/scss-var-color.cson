@@ -1,0 +1,4 @@
+'.source.css.scss, .source.scss, .source.css.sass, .source.sass':
+  'Kickoff - $color var':
+    'prefix': 'color'
+    'body': '\$color-${1:primary|secondary|highlight|text|bg}'

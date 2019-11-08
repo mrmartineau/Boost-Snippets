@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[@media screen and (${2:min}-width: ${1:768px}) {
+	$0
+}]]></content>
+	<tabTrigger>media</tabTrigger>
+	<description>Kickoff - media query</description>
+	<scope>source.css,source.scss</scope>
+</snippet>

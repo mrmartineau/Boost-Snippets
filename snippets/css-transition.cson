@@ -1,0 +1,4 @@
+'.source.css':
+  'Kickoff - transition':
+    'prefix': 'transition'
+    'body': 'transition: ${1:all 200ms ease-in-out};$0'

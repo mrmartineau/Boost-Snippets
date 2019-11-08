@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[<div class="form-controlGroup">
+	<label class="form-label">Inline Checkboxes</label>
+	<div class="form-controlGroup-inputWrapper">
+		<label class="control control--inline">
+			<input type="checkbox" value="check1">
+			This is a checkbox
+		</label>
+		<label class="control control--inline">
+			<input type="checkbox" value="check2">
+			This is a checkbox
+		</label>
+	</div>
+</div>
+$0]]></content>
+	<tabTrigger>form</tabTrigger>
+	<description>Kickoff - form - checkboxes inline</description>
+	<scope>text.html</scope>
+</snippet>

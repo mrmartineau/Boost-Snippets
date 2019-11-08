@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[@include ko-hidpi(${1:1.5}){
+	$0
+}]]></content>
+	<tabTrigger>hidpi</tabTrigger>
+	<description>Kickoff - hidpi mixin</description>
+	<scope>source.scss</scope>
+</snippet>

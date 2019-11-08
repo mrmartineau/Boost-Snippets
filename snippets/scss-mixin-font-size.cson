@@ -1,0 +1,4 @@
+'.source.css.scss, .source.scss, .source.css.sass, .source.sass':
+  'Kickoff - font-size() REM mixin':
+    'prefix': 'fs'
+    'body': '@include ko-font-size(${1:16/mid/\$font-large});$0'

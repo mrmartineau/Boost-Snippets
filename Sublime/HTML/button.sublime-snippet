@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[<a href="${1:#}" class="btn$2">${3:Button text}</a>$0]]></content>
+	<tabTrigger>button</tabTrigger>
+	<description>Kickoff - button</description>
+	<scope>text.html</scope>
+</snippet>

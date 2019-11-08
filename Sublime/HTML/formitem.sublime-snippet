@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[<div class="form-controlGroup">
+	<label class="form-label" for="${1:name}">${2:Label}</label>
+	<div class="form-controlGroup-inputWrapper">
+		<input class="form-input" type="${3:text}" name="$1" id="${1:name}"${4: placeholder="Placeholder text"}${5: required}/>
+	</div>
+</div>
+$0]]></content>
+	<tabTrigger>form</tabTrigger>
+	<description>Kickoff - form - single item</description>
+	<scope>text.html</scope>
+</snippet>

@@ -1,0 +1,4 @@
+'.source.css':
+  'Kickoff - rotate':
+    'prefix': 'rotate'
+    'body': 'transform: rotate(${1:2deg});'

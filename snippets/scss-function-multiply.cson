@@ -1,0 +1,4 @@
+'.source.css.scss, .source.scss, .source.css.sass, .source.sass':
+  'Kickoff - multiply function':
+    'prefix': 'multiply'
+    'body': 'ko-multiply(${1:\$baseline}, ${2:1})'

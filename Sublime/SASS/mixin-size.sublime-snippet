@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[@include ko-size(${1:10}px,${2:10}px);$0]]></content>
+	<tabTrigger>size</tabTrigger>
+	<description>Kickoff - size() mixin</description>
+	<scope>source.scss</scope>
+</snippet>

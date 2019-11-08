@@ -1,0 +1,4 @@
+'.source.css.scss, .source.scss, .source.css.sass, .source.sass':
+  'Kickoff - size() mixin':
+    'prefix': 'size'
+    'body': '@include ko-size(${1:10}px,${2:10}px);$0'

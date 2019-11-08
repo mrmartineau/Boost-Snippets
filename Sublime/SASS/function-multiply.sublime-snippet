@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[ko-multiply(${1:\$baseline}, ${2:1})]]></content>
+	<tabTrigger>multiply</tabTrigger>
+	<description>Kickoff - multiply function</description>
+	<scope>source.scss</scope>
+</snippet>

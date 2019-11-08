@@ -1,0 +1,8 @@
+'.source.css.scss, .source.scss, .source.css.sass, .source.sass':
+  'Kickoff - :hover':
+    'prefix': 'hover'
+    'body': """
+      &:hover {
+      	$0
+      }
+    """

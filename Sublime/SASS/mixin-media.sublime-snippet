@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[@include media(${1:'>mid'}) {
+	$0
+}]]>
+</content>
+	<tabTrigger>mq</tabTrigger>
+	<description>Kickoff - media() (Media Query) mixin</description>
+	<scope>source.scss</scope>
+</snippet>

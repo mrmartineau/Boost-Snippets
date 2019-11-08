@@ -1,0 +1,4 @@
+'.source.css.scss, .source.scss, .source.css.sass, .source.sass':
+  'Kickoff - $font-family var':
+    'prefix': 'font-family'
+    'body': '\$font-family-${1:base|sans|serif|mono}'

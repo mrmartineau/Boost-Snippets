@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$default-transition${1:-timing|-duration}]]></content>
+	<tabTrigger>default-transition</tabTrigger>
+	<description>Kickoff - $default-transition var</description>
+	<scope>source.scss</scope>
+</snippet>

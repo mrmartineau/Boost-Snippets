@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[&:hover {
+	$0
+}]]></content>
+	<tabTrigger>hover</tabTrigger>
+	<description>Kickoff - :hover</description>
+	<scope>source.scss</scope>
+</snippet>

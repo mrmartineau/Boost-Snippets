@@ -1,5 +1,0 @@
-<snippet>
-	<content><![CDATA[.box-shadow(${1:0 1px 3px rgba(0,0,0,.25)})$0]]></content>
-	<tabTrigger>bbs</tabTrigger>
-	<description>.border-shadow() Mixin</description>
-</snippet>

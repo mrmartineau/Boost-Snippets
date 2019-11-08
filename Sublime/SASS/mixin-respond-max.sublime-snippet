@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[@include ko-respond-max(${1:mid}) {
+	$0
+}]]>
+</content>
+	<tabTrigger>rmax</tabTrigger>
+	<description>Kickoff - respond-max() (Media Query) mixin</description>
+	<scope>source.scss</scope>
+</snippet>

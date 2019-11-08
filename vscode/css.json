@@ -1,0 +1,52 @@
+{
+	"css-border-radius": {
+		"prefix": "border-radius",
+		"body": "border-radius: ${1:5px};$0",
+		"description": "Kickoff - border-radius"
+	},
+	"css-bg-size": {
+		"prefix": "background-size",
+		"body": "background-size: ${1:cover};$0",
+		"description": "Kickoff - background-size"
+	},
+	"css-animation": {
+		"prefix": "animation",
+		"body": "animation: ${1:single-animation-name} ${2:time e.g.200ms} ${3:timing-function e.g.linear} ${4:delay e.g.0s} ${5:single-animation-iteration-count e.g.infinite} ${6:single-animation-fill-mode e.g.forwards}$0;",
+		"description": "Kickoff - animation"
+	},
+	"css-background": {
+		"prefix": "background",
+		"body": "background: ${1:#f2f2f2} url('/img${2:/ui/}$3') ${4:left} ${5:top} ${6:no-repeat};$0",
+		"description": "Kickoff - background"
+	},
+	"css-box-shadow": {
+		"prefix": "box-shadow",
+		"body": "box-shadow: ${1:0} ${2:1px} ${3:3px} ${4:rgba(0,0,0,.25)};$0",
+		"description": "Kickoff - box-shadow"
+	},
+	"css-media-query": {
+		"prefix": "media",
+		"body": "@media screen and (${2:min}-width: ${1:768px}) {\n\t$0\n}",
+		"description": "Kickoff - media query"
+	},
+	"css-rotate": {
+		"prefix": "rotate",
+		"body": "transform: rotate(${1:2deg});",
+		"description": "Kickoff - rotate"
+	},
+	"css-transform": {
+		"prefix": "transform",
+		"body": "transform: ${1:rotate() scale() translate3d()};$0",
+		"description": "Kickoff - transform"
+	},
+	"css-transition": {
+		"prefix": "transition",
+		"body": "transition: ${1:all 200ms ease-in-out};$0",
+		"description": "Kickoff - transition"
+	},
+	"css-translate": {
+		"prefix": "translate",
+		"body": "transform: translate3d(${1:x} ${2:y} ${2:z});",
+		"description": "Kickoff - translate"
+	}
+}

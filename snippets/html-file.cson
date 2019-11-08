@@ -1,0 +1,17 @@
+'.text.html':
+  'Kickoff - form - custom file upload':
+    'prefix': 'file'
+    'body': """
+      <div class=\"form-controlGroup\">
+      	<label class=\"form-label\" for=\"${1:for}\">${2:Label}</label>
+
+      	<div class=\"form-controlGroup-inputWrapper\">
+      		<label class=\"form-input form-input--file\">
+      			<span class=\"form-input--file-text\">Choose file..</span>
+      			<span class=\"form-input--file-button\">Browse</span>
+      			<input class=\"form-input-file\" type=\"file\" id=\"$1\" name=\"$1\"${3: accept=\"image/*\"} size=\"14\" />
+      		</label>
+      	</div>
+      </div>
+      $0
+    """

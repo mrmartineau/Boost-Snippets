@@ -1,0 +1,17 @@
+{
+	"js-attach": {
+		"prefix": "attach",
+		"body": "/**\n * ${1:ModuleName}\n * @module $1\n * @description ${2:Description}\n * @author ${3:Author}\n *\n * @usage\n   attach.add('$1', function(el, id) {\n     el[id] = el[id] || new $1(el, JSON.parse(el.getAttribute('data-${1/(.*)/\\L\\1/}-options')) );\n   });\n */\n\n/**\n * @constructor\n * @param {Element} element\n * @param {Object} options\n */\nfunction $1(element, options) {\n\tvar opts;\n\tthis.element = element;\n\tthis.options = Object.assign(this.defaultOptions, options);\n\n\tthis.addEvents();\n}\n\n\n/** Default options */\n$1.prototype.defaultOptions = {\n\n};\n\n\n/** Add events */\n$1.prototype.addEvents = function () {\n\t$0\n};\n\nmodule.exports = $1;\n$0",
+		"description": "Kickoff - attach.js starter module"
+	},
+	"js-double-dollar": {
+		"prefix": "$$",
+		"body": "$$('${1:selector}').forEach(item => {\n\t$0\n});\n",
+		"description": "Double-dollar"
+	},
+	"js-es6": {
+		"prefix": "es6",
+		"body": "/**\n * ${1:moduleName}\n * @module $1\n * @description ${2:module description}\n * @author ${3:author name}\n */\n\n// dependencies for this module go here\n\nexport default function $1() {\n\t$0\n}\n",
+		"description": "Kickoff - ES6/ES2015 starter module"
+	}
+}

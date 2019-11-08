@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[ko-map-deep-get(${1:\$sass-map}, '${2:child}'${3:, '${4:child}'})]]></content>
+	<tabTrigger>map-deep-get</tabTrigger>
+	<description>Kickoff - map-deep-get function</description>
+	<scope>source.scss</scope>
+</snippet>

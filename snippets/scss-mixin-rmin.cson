@@ -1,0 +1,8 @@
+'.source.css.scss, .source.scss, .source.css.sass, .source.sass':
+  'Kickoff - respond-min (Media Query) mixin':
+    'prefix': 'rmin'
+    'body': """
+      @include ko-respond-min(${1:mid}) {
+      	$0
+      }
+    """

@@ -1,0 +1,9 @@
+'.source.css.scss, .source.scss, .source.css.sass, .source.sass':
+  'Kickoff - :before, :after':
+    'prefix': 'beforeafter'
+    'body': """
+      &::before, &::after {
+      	content: \'\';
+      	$0
+      }
+    """

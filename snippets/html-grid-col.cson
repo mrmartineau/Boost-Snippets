@@ -1,0 +1,8 @@
+'.text.html':
+  'Kickoff - 1 grid column':
+    'prefix': 'gri'
+    'body': """
+      <div class="g-span${1:12} g-col">
+      	$2
+      </div>$0
+    """

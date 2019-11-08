@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[<div class="g-span${1:12} g-col">
+	$2
+</div>$0]]></content>
+	<tabTrigger>grid</tabTrigger>
+	<description>Kickoff - 1 grid column</description>
+	<scope>text.html</scope>
+</snippet>

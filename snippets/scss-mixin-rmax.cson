@@ -1,0 +1,8 @@
+'.source.css.scss, .source.scss, .source.css.sass, .source.sass':
+  'Kickoff - respond-max() (Media Query) mixin':
+    'prefix': 'rmax'
+    'body': """
+      @include ko-respond-max(${1:mid}) {
+      	$0
+      }
+    """

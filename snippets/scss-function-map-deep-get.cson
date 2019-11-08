@@ -1,0 +1,4 @@
+'.source.css.scss, .source.scss, .source.css.sass, .source.sass':
+  'Kickoff - map-deep-get function':
+    'prefix': 'map-deep-get'
+    'body': 'ko-map-deep-get(${1:\$sass-map}, \'${2:child}\', \'${3:child}\'})'

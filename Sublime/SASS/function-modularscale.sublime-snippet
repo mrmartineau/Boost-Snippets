@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[modular-scale(\$font-size-base, ${1:2}, \$type-scale)]]></content>
+	<tabTrigger>modular-scale</tabTrigger>
+	<description>Kickoff - modular-scale font-size function</description>
+	<scope>source.scss</scope>
+</snippet>

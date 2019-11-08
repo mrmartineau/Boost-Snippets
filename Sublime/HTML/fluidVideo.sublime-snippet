@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[<div class="fluidVideo${1: fluidVideo--4-3}">
+	${2:<iframe width="560" height="315" src="${3://www.youtube-nocookie.com/embed/-5Ae-LhMIG0}" frameborder="0" allowfullscreen></iframe>}
+</div>$0]]></content>
+	<tabTrigger>video</tabTrigger>
+	<description>Kickoff - fluid video</description>
+	<scope>text.html</scope>
+</snippet>

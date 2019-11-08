@@ -1,0 +1,8 @@
+'.text.html':
+  'Kickoff - Grid row':
+    'prefix': 'grid'
+    'body': """
+      <div class=\"g${1: g--stack--mid}${2: g--gutter}\">
+      	$0
+      </div>
+    """

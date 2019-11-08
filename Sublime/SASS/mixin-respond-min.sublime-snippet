@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[@include ko-respond-min(${1:mid}) {
+	$0
+}]]>
+</content>
+	<tabTrigger>rmin</tabTrigger>
+	<description>Kickoff - respond-min() (Media Query) mixin</description>
+	<scope>source.scss</scope>
+</snippet>

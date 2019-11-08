@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$color-${1:primary|secondary|highlight|text|bg}]]></content>
+	<tabTrigger>color</tabTrigger>
+	<description>Kickoff - $color var</description>
+	<scope>source.scss</scope>
+</snippet>

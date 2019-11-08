@@ -1,0 +1,47 @@
+{
+  "name": "kickoff-snippets",
+  "version": "6.2.3",
+  "description": "Useful snippets for Sublime Text and Atom",
+  "repository": "https://github.com/TryKickoff/kickoff-snippets",
+  "publisher": "mrmartineau",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0",
+    "vscode": "^1.5.0"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "css",
+        "path": "./vscode/css.json"
+      },
+      {
+        "language": "scss",
+        "path": "./vscode/scss.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./vscode/js.json"
+      },
+      {
+        "language": "html",
+        "path": "./vscode/html.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./vscode/js.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./vscode/js.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./vscode/js.json"
+      }
+    ]
+  },
+  "categories": [
+    "Snippets"
+  ]
+}

@@ -1,0 +1,4 @@
+'.source.css.scss, .source.scss, .source.css.sass, .source.sass':
+  'Kickoff - square() mixin':
+    'prefix': 'square'
+    'body': '@include ko-square(${1:50}px);$0'

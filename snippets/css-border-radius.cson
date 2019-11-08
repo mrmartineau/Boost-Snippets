@@ -1,0 +1,4 @@
+'.source.css':
+  'Kickoff - border-radius':
+    'prefix': 'border-radius'
+    'body': 'border-radius: ${1:5px};$0'

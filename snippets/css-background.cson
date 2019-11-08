@@ -1,0 +1,4 @@
+'.source.css':
+  'Kickoff - background':
+    'prefix': 'background'
+    'body': 'background: ${1:#f2f2f2} url(\'/img/${2:/ui/}$3\') ${4:left} ${5:top} ${6:no-repeat};$0'

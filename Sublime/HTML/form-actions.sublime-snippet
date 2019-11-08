@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[<div class="form-actions text_centre">
+	<input type="submit" value="Submit" class="btn btn--primary" />
+	<input type="reset" class="btn" value="Cancel" />
+</div>$0]]></content>
+	<tabTrigger>form</tabTrigger>
+	<description>Kickoff - form actions</description>
+	<scope>text.html</scope>
+</snippet>

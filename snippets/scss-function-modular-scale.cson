@@ -1,0 +1,4 @@
+'.source.css.scss, .source.scss, .source.css.sass, .source.sass':
+  'Kickoff - modular-scale font-size function':
+    'prefix': 'modular-scale'
+    'body': 'ko-modular-scale(\$font-size-base, ${1:2}, \$type-scale)'

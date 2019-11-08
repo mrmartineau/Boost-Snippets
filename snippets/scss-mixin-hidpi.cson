@@ -1,0 +1,8 @@
+'.source.css.scss, .source.scss, .source.css.sass, .source.sass':
+  'Kickoff - hidpi mixin':
+    'prefix': 'hidpi'
+    'body': """
+      @include hidpi(${1:1.5}){
+      	$0
+      }
+    """

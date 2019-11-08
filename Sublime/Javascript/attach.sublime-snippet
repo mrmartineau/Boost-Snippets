@@ -1,0 +1,45 @@
+
+<snippet>
+	<content><![CDATA[/**
+ * ${1:ModuleName}
+ * @module $1
+ * @description ${2:Description}
+ * @author ${3:Author}
+ *
+ * @usage
+   attach.add('$1', function(el, id) {
+     el[id] = el[id] || new $1(el, JSON.parse(el.getAttribute('data-${1/(.*)/\L\1/}-options')) );
+   });
+ */
+
+/**
+ * @constructor
+ * @param {Element} element
+ * @param {Object} options
+ */
+function $1(element, options) {
+	var opts;
+	this.element = element;
+	this.options = Object.assign(this.defaultOptions, options);
+
+	this.addEvents();
+}
+
+
+/** Default options */
+$1.prototype.defaultOptions = {
+
+};
+
+
+/** Add events */
+$1.prototype.addEvents = function () {
+	$0
+};
+
+module.exports = $1;
+$0]]></content>
+	<tabTrigger>attach</tabTrigger>
+	<description>Kickoff - attach.js starter module</description>
+	<scope>source.js</scope>
+</snippet>

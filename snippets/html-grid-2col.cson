@@ -1,0 +1,13 @@
+'.text.html':
+  'Kickoff - 2 grid columns':
+    'prefix': 'gr'
+    'body': """
+      <div class="g${1: g--stack--mid}${2: g--gutter}">
+      	<div class="g-span${3:6} g-col">
+      		$3
+      	</div>
+      	<div class="g-span${4:6} g-col">
+      		$4
+      	</div>
+      </div>$0
+    """

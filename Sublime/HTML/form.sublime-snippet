@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[<form action="#" class="form${1: form--horizontal}"}>
+	${2:<fieldset class="form-fieldset">
+		${3:<legend class="form-legend">${4:Fieldset}</legend>}
+		$5
+	</fieldset>}
+	$0
+</form>]]></content>
+	<tabTrigger>form</tabTrigger>
+	<description>Kickoff - &lt;form&gt;</description>
+	<scope>text.html</scope>
+</snippet>
